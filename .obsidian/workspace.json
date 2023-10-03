@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ddc2ac99a48e2cb7",
+        "id": "dd59606eb7e78cb1",
         "type": "tabs",
         "children": [
           {
-            "id": "79aa9b0730f485ac",
+            "id": "23d813103dc65e27",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -73,7 +73,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -184,10 +185,10 @@
       "notion-like-tables:Create new loom": false
     }
   },
-  "active": "79aa9b0730f485ac",
+  "active": "23d813103dc65e27",
   "lastOpenFiles": [
-    "Project management/Projects.md",
     "HOME.md",
+    "Project management/Projects.md",
     "Project management/MP resources.md",
     "Project management/MP management.md",
     "Project management/Untitled.md",
