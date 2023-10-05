@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "0f68f28235216b71",
+        "id": "75b5f83f89c977cb",
         "type": "tabs",
         "children": [
           {
-            "id": "6a451a88475216d3",
+            "id": "5f08031c8f7dc530",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HOME.md",
-                "mode": "source",
-                "source": false
+                "file": "Git & Github/Git & Github.md",
+                "mode": "preview",
+                "source": true
               }
             }
           }
@@ -73,8 +73,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOME.md",
+                "file": "Git & Github/Git & Github.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOME.md",
+                "file": "Git & Github/Git & Github.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOME.md"
+                "file": "Git & Github/Git & Github.md"
               }
             }
           },
@@ -185,15 +184,16 @@
       "notion-like-tables:Create new loom": false
     }
   },
-  "active": "6a451a88475216d3",
+  "active": "5f08031c8f7dc530",
   "lastOpenFiles": [
+    "HOME.md",
+    "Javascrrpt/Expressions & Conditions.md",
+    "Javascrrpt/Variables & Data-types.md",
+    "Javascrrpt/Javascrrpt.md",
     "Git & Github/Basics and theory.md",
     "Git & Github/Git & Github.md",
     ".md",
-    "HOME.md",
     "Git & Github",
-    "Javascrrpt/Expressions & Conditions.md",
-    "Javascrrpt/Variables & Data-types.md",
     "Javascrrpt/Basics of Javascript.md",
     "Javascrrpt/Javascript.md",
     "HTML/HTML.md",
@@ -220,7 +220,6 @@
     "Formatting tags 1.md",
     "2023-09-25.md",
     "HTML",
-    "HOME/Untitled.md",
     "Context/spacesLastSync.log",
     "Context",
     "HOME"

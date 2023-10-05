@@ -33,8 +33,7 @@
 | `git remote add origin [repolink]` | -                  | Same command as `git remote [repolink]` just insert `add origin` in command       |
 | `git remote`                       | -                  | Shows your all remote repos                                                       |
 | `git remote -v`                    | -                  | Shows fetching/pulling and pushing remote repo                                    |
-| `git push -u origin main`          | -                  | Same as `git push` but `-u` represents user and `origin main` defines branch name |
-|                                    |                    |                                                                                   |
+| `git push -u origin [branchname]`  | -                  | Same as `git push` but `-u` represents user and `origin main` defines branch name |
 
 # Git log
 
@@ -75,39 +74,40 @@ Create `.gitignore` file and put all ignoring files into it (just write file nam
 | `git restore [filename]`          | -                  | Restore modification to last commit                                                                 |
 | `git checkout -- [filename]`      | -                  | Unmodify repo, it will get your file into last commit status but it will only work on unstaged file |
 | `git checkout -f`                 | -                  | It will take your whole working directory into last commit but it is only works on unstaged files   |
-|                                   |                    |                                                                                                     |
+
+# Branches
+
+| Command | Use |
+|------------------------|-------------|
+| Create new branch      | `git checkout -b [branch name]` |
+| Change branch          | `git checkout [branch name]` |
+| Delete branch          | `git branch -d [branchname]` (with warning if not merged) |
+| Force delete branch    | `git branch -D [branchname]` (no warning) |
+| Merged branches        | `git branch --merged` |
+| Non-merged branches    | `git branch --no-merged` |
+| Show all branches      | `git branch` |
+| Show last commits      | `git branch -v` |
+| Merge branches         | `git merge [another branch]` |
+
+# Branch Push
+
+| Branch Pushing                         | Command                                                    |
+| -------------------------------------- | ---------------------------------------------------------- |
+| Push current branch                    | `git push origin [branchname]`                             |
+| Push with different remote branch name | `git push origin [branchnameOnLocal]:[branchnameOnRemote]` |
+| Delete remote branch                   | `Git push -d origin [branchname]`                          | 
+
+# Merge conflicts
+
+| Merge Conflicts | Resolution |
+|---------------------|----------------|
+| Resolve conflicts in VS Code, then | `git add .` |
+| Commit changes                      | `git commit` |
+
+# Alias commands
 
 
+`Git config --global alias.st status`
+`Git config --global alias. Unstage 'restore --staged --'`
 
-Git alias commands >>
-
-Git config --global alias.st status
-Git config --global alias. Unstage 'restore --staged --'
-
-Branches >>
-
-Git checkout -b [branch name] (create new branch)
-Git checkout [branch name] (change branch)
-
-Git branch -d [branchname] (delete branch and If you didn't merged this branch git will give you warning)
-Git branch -D [branchname] (it will directly delete and throws no error)
-
-Git branch --merged (shows already merged branches)
-Git branch --no-merged (shows non merged branches)
-
-Git branch (shows all branches)
-Git branch -v (shows last commits of all branches)
-
-Git merge [another branch] (merge your current branch with another branch)
-
-Merge conflicts >>
-
-Accept one change from vs code and then run "git add ." and commit it.
-
-Branch pushing >>
-
-Git push origin [branchname] (jis branch ko push kr rhe ho ushi branch me rehkar push kro for eg. Bugfix ko push kr rhe ho to bugfix me reh kr hi kro)
-
-Git push origin [branchnameOnLocal]:[branchnameOnRemote] (mtlb local wali branch remote pe dusre naam se push krne ke liye)
-
-Git push -d origin [branchname] (delete remote repo)
+Use this type of commands for alias.
