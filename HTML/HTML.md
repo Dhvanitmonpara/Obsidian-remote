@@ -2,7 +2,7 @@
 sticker: lucide//chevron-up
 ---
 1. [[Resources]]
-2. [[The Basics]]
+2. [[Basics of HTML]]
 3. [[Emmet abbreviations]]
 4. [[Formatting]] and [[Formatting tags]]
 5. [[Structure]] and [[Semantic tags]]

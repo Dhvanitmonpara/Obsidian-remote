@@ -1,0 +1,50 @@
+{
+  "model": {
+    "columns": [
+      {
+        "id": "d95d601c-e69a-4018-a8f0-43c277e54d9c",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "New Column",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mm/dd/yyyy",
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset"
+      }
+    ],
+    "rows": [
+      {
+        "id": "233e22c6-a67d-4c30-a985-af4873f0d4fb",
+        "index": 0,
+        "creationTime": 1696340858736,
+        "lastEditedTime": 1696340858736,
+        "cells": [
+          {
+            "id": "84bd2038-dd68-482d-afa9-58f8a9f273ef",
+            "isExternalLink": false,
+            "columnId": "d95d601c-e69a-4018-a8f0-43c277e54d9c",
+            "dateTime": null,
+            "content": "",
+            "tagIds": []
+          }
+        ]
+      }
+    ],
+    "filters": [],
+    "settings": {
+      "numFrozenColumns": 1,
+      "showCalculationRow": true
+    }
+  },
+  "pluginVersion": "8.6.1"
+}
