@@ -1,3 +1,6 @@
+---
+sticker: lucide//chevron-up
+---
 **Introduction:**
 
 HTML forms are used to collect user input on a web page.

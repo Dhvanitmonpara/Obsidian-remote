@@ -46,10 +46,8 @@
     ],
     "Main vault": [
       "Projects",
-      "Git & Github",
       "Javascrrpt",
-      "CSS - Refrences",
-      "CSS - Refrences"
+      "Javascript"
     ]
   },
   "expandedSpaces": [
@@ -88,7 +86,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1696506685862,
+  "spacesAutoBackupLast": 1696679256004,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",

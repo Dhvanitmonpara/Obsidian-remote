@@ -5,7 +5,7 @@ sticker: lucide//home
 > [[HTML]]
 > [[CSS - Refrences]] & [[CSS - Comprehensive notes]]
 > [[Javascript]]
-> [[Git & Github]]
+> [[Git & Git-Hub]]
 
 > Automation 
 > 

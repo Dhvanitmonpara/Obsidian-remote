@@ -1,3 +1,6 @@
+---
+sticker: lucide//chevron-up
+---
 In HTML, table represents data in a structures manner.
 
 **Tags:**

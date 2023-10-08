@@ -1,3 +1,6 @@
+---
+sticker: lucide//chevron-up
+---
 **Images:** 
 You can add images using `<image>` tag.
 ```html

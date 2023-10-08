@@ -8,4 +8,7 @@ sticker: lucide//chevron-up
 5. [[Structure]] and [[Semantic tags]]
 6. [[Character Entities]]
 7. [[Lists in HTML]]
-8. 
+8. [[Tables]]
+9. [[Forms]]
+10. [[Media & linking]]
+11. [[Inside head tag]]

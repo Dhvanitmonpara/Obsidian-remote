@@ -1,3 +1,6 @@
+---
+sticker: lucide//chevron-up
+---
 # Theory
 
 In commit `Author` represents file creator whereas `Commiter` represents person who commited.

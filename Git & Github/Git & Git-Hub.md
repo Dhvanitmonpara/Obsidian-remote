@@ -1,3 +1,6 @@
+---
+sticker: lucide//chevron-up
+---
 # Working with directories
 
 | Command                                  | Full form if exist        | Use                                                                 |

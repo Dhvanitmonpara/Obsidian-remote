@@ -1,3 +1,6 @@
+---
+sticker: lucide//chevron-up
+---
 **Favicon:**
 This is your website's logo, it'll showed up on browser tabs and homepage.
 
