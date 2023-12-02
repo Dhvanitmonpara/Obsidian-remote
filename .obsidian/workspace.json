@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "581604a9bdf31df4",
+        "id": "2ddc24d5a45276e8",
         "type": "tabs",
         "children": [
           {
-            "id": "092e403e97950fed",
+            "id": "ffd4c54fee105213",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Javascript/Strings.md",
+                "file": "Git & Github/Git & Git-Hub.md",
                 "mode": "source",
                 "source": false
               }
@@ -66,7 +66,7 @@
             }
           },
           {
-            "id": "eb58f023f1b785ca",
+            "id": "0c817cf0653755ec",
             "type": "leaf",
             "state": {
               "type": "mk-file-view",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Javascript/Strings.md",
+                "file": "Git & Github/Git & Git-Hub.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Javascript/Strings.md",
+                "file": "Git & Github/Git & Git-Hub.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Javascript/Strings.md"
+                "file": "Git & Github/Git & Git-Hub.md"
               }
             }
           },
@@ -161,9 +161,17 @@
               "type": "reminder-list",
               "state": {}
             }
+          },
+          {
+            "id": "e7f5e4c68ec2baf0",
+            "type": "leaf",
+            "state": {
+              "type": "FANTASY_CALENDAR",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -182,16 +190,38 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templater-obsidian:Templater": false,
       "homepage:Open homepage": false,
-      "notion-like-tables:Create new loom": false
+      "notion-like-tables:Create new loom": false,
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "fantasy-calendar:Open Large Fantasy Calendar": false
     }
   },
-  "active": "092e403e97950fed",
+  "active": "ffd4c54fee105213",
   "lastOpenFiles": [
     "HOME.md",
+    "Developer roadmap.canvas",
+    "create_favicon.png",
+    "Project management/Projects.md",
+    "Project management/MP resources.md",
+    "Project management/MP management.md",
+    "Untitled.loom",
+    "CSS - Refrences/CSS - Refrences.md",
+    "CSS - Refrences/Position & list.md",
+    "context.mdb",
+    "HTML/HTML.md",
+    "HTML/Resources.md",
+    "DBMS/Basics of DBMS.md",
+    "DBMS/Architecture.md",
+    "Pasted image 20231023164640.png",
+    "Pasted image 20231023164606.png",
+    "Pasted image 20231023163623.png",
+    "Untitled.md",
+    "Untitled 1.md",
+    "2023-10-23.md",
+    "DBMS",
+    "Javascript/Arrays.md",
     "Javascript/Strings.md",
     "CSS - Refrences/Size units.md",
     "CSS - Refrences/Responsive web.md",
-    "CSS - Refrences/Position & list.md",
     "CSS - Refrences/Grid layout.md",
     "CSS - Refrences/Flexbox & Float.md",
     "CSS - Refrences/Display & Fonts.md",
@@ -199,31 +229,14 @@
     "CSS - Refrences/Background image.md",
     "HTML/Basics of HTML.md",
     "Project management/Project management.md",
-    "create_favicon.png",
     "HTML/Tables.md",
-    "HTML/Media & linking.md",
-    "HTML/Inside head tag.md",
-    "HTML/Formatting.md",
-    "HTML/Formatting tags.md",
-    "HTML/Emmet abbreviations.md",
-    "HTML/Forms.md",
-    "tab.md",
-    "HTML/Character Entities.md",
-    "Javascript/Javascrrpt.md",
-    "Javascript/Loops & Functions.md",
-    "Javascript/Javascript.md",
-    "Git & Github/Basics and theory.md",
-    "Git & Github/Git & Git-Hub.md",
     ".md",
     "Git & Github",
     "Javascript",
-    "Untitled.canvas",
-    "Untitled.loom",
     "Project management",
     "Pasted image 20230926113855.jpg",
     "HTML",
     "Context/spacesLastSync.log",
-    "Context",
-    "HOME"
+    "Context"
   ]
 }

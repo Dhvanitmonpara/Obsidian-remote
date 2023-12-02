@@ -47,7 +47,8 @@
     "Main vault": [
       "Projects",
       "Javascrrpt",
-      "Javascript"
+      "/",
+      "Project management"
     ]
   },
   "expandedSpaces": [
@@ -86,7 +87,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1696679256004,
+  "spacesAutoBackupLast": 1701434376933,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",

@@ -8,4 +8,6 @@ sticker: lucide//home
 > [[Git & Git-Hub]]
 
 > Automation 
-> 
+
+> Planning
+> [[Developer roadmap.canvas|Developer roadmap]]

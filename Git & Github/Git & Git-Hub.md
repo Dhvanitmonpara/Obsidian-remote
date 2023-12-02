@@ -114,3 +114,7 @@ Create `.gitignore` file and put all ignoring files into it (just write file nam
 `Git config --global alias. Unstage 'restore --staged --'`
 
 Use this type of commands for alias.
+
+# Important note
+A commit doesn't make staging area empty. Staging area is always a copy of last commit and using `git add` command will make changes in it.
+
