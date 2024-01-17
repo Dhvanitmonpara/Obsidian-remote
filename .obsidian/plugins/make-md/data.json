@@ -48,7 +48,15 @@
       "Projects",
       "Javascrrpt",
       "/",
-      "Project management"
+      "Project management",
+      "DBMS",
+      "DBMS",
+      "DBMS",
+      "DBMS",
+      "DBMS",
+      "DBMS",
+      "DBMS",
+      "DBMS"
     ]
   },
   "expandedSpaces": [
@@ -87,7 +95,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1701434376933,
+  "spacesAutoBackupLast": 1703245940183,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",

@@ -1,3 +1,6 @@
+---
+sticker: lucide//chevron-up
+---
 # What is Data?
 Data is the collection of raw bytes, It does not carry any specific purpose and has no significance by itself.
 Moreover, data is measured in terms of bits and bytes - which are basic units of information in the context of computer storage and processing.

@@ -1,6 +1,13 @@
 ---
 sticker: lucide//chevron-up
 ---
+### What is abstraction?
+- System hides certain details that are not usefull for user.
+- i.e Car driving: User don't care about when he/she press acceralator or break how the actual thing works so engineer hides it.
+- Abstraction provides different views for different deoartments according to their needs and permisions.
+- It's like logistic department can only access logtic information, they should not care about other departments.
+- In summary user don't care about algorithm and engineer hides the algorithm that how thing works?
+
 ### What is schema?
 Schema is a design that describes how table will be displays.
 
@@ -23,6 +30,8 @@ Schema is a design that describes how table will be displays.
 - Describes the physical schema, which defines the physical storage structure of the database.
 
 - Covers topics such as storage allocation (e.g., N-ary tree), data compression, encryption, and more.
+
+- It also known as Database schema.
 
 - Goal: Define algorithms that enable efficient access to data.
 
@@ -72,6 +81,15 @@ Schema is a design that describes how table will be displays.
 - The main goal here is to make data easy to use and understand for users without worrying about the underlying technical complexities.
 
 In essence, the physical level deals with the technical aspects of data storage, while the logical level is concerned with how data is structured and presented to users in a way that's meaningful and user-friendly.
+
+### Instances of schemas?
+1. The collection of information stored in the DB at a particular moment is called an instance of DB.
+2. The overall design of the DB is called the DB schema.
+3. Schema is structural description of data. Schema doesn’t change frequently. Data may change frequently.
+4. DB schema corresponds to the variable declarations (along with type) in a program.
+5. We have 3 types of Schemas: Physical, Logical, several view schemas called subschemas.
+6. Logical schema is most important in terms of its effect on application programs, as programmers construct apps by using logical schema.
+7. Physical data independence, physical schema change should not affect logical schema/application programs
 
 # Tier based Architecture in Networking
 

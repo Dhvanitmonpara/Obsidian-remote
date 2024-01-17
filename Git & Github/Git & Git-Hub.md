@@ -24,7 +24,7 @@ sticker: lucide//chevron-up
 | `git rm --cached [filename]`       | -                  | Remove from staging area                                                                                                                        |
 | `git commit -m "My first repo"`    | -                  | Commit all staged files                                                                                                                         |
 | `rm -rf .git`                      | -                  | Remove from tracking repo and delete all files                                                                                                  |
-| `git clone [repolink] [filename]`  |                    | For cloning the whole repo in your pc and`[filename]` uses for declaring a saperate name for loacl, you can also clone a repo without adding it |
+| `git clone [repolink] [filename]`  |                    | For cloning the whole repo in your pc and`[filename]` uses for declaring a saperate name for local, you can also clone a repo without adding it |
 | `git -a -m "Direct commit"`        | -                  | Skip staging area and commit directly                                                                                                           |
 
 # Working with remote

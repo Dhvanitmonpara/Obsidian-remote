@@ -5,7 +5,10 @@ sticker: lucide//home
 > [[HTML]]
 > [[CSS - Refrences]] & [[CSS - Comprehensive notes]]
 > [[Javascript]]
+> [[DBMS]]
 > [[Git & Git-Hub]]
+> [[Computer science topics]]
+> [[GSAP]]
 
 > Automation 
 
