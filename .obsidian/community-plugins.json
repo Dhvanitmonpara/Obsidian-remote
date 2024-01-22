@@ -12,10 +12,10 @@
   "homepage",
   "obsidian-linter",
   "notion-like-tables",
-  "make-md",
   "obsidian-reminder-plugin",
   "obsidian-full-calendar",
   "fantasy-calendar",
   "heatmap-calendar",
-  "obsidian-enhancing-mindmap"
+  "obsidian-enhancing-mindmap",
+  "make-md"
 ]
