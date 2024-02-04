@@ -177,6 +177,7 @@ int main()
 }
 
 ```
+
 # Ambiguity reslution
 
 Ambiguity in inheritance can be defined when one class derived for two or more base classes then there are chances that the base classes have functions with the same name. so it will confuse derived class to choose from similar name functions. To solve this ambiguity scope resolution operator is used `::`.
@@ -246,6 +247,92 @@ int main(){
     D d;
     d.say();
 
+    return 0;
+}
+
+```
+
+# Virtual class
+
+The virtual base class is a concept used in multiple inheritances to prevent ambiguity between multiple instances. For example: suppose we created a class “A” and two classes “B” and “C”, are being derived from class “A”. But once we create a class “D” which is being derived from class “B” and “C” as shown in figure 1.
+
+```cpp
+#include <iostream>
+using namespace std;
+class A {
+public:
+    void say()
+    {
+        cout << "Hello world"<<endl;
+    }
+};
+class B : public virtual A {
+};
+class C : public virtual A {
+};
+class D : public B, public C {
+};
+
+```
+
+<br>
+
+# Constructors in derived class
+
+- We can use constructors in derived classes in C++.
+- If the base class constructor does not have any arguments, there is no need for any constructor in the derived class.
+- But if there are one or more arguments in the base class constructor, derived class need to pass argument to the base class constructor.
+- If both base and derived classes have constructors, base class constructor is executed first.
+
+
+
+```cpp
+class Base1{
+    int data1;
+    public:
+        Base1(int i){
+            data1 = i;
+            cout<<"Base1 class constructor called"<<endl;
+        }
+        void printDataBase1(void){
+            cout<<"The value of data1 is "<<data1<<endl;
+        }
+};
+
+class Base2{
+    int data2;
+
+    public:
+        Base2(int i){
+            data2 = i;
+            cout << "Base2 class constructor called" << endl;
+        }
+        void printDataBase2(void){
+            cout << "The value of data2 is " << data2 << endl;
+        }
+};
+
+class Derived: public Base2, public Base1{
+    int derived1, derived2;
+    public:
+        Derived(int a, int b, int c, int d) : Base2(b), Base1(a)
+        {
+            derived1 = c;
+            derived2 = d;
+            cout<< "Derived class constructor called"<<endl;
+        }
+        void printDataDerived(void)
+        {
+            cout << "The value of derived1 is " << derived1 << endl;
+            cout << "The value of derived2 is " << derived2 << endl;
+        }
+};
+
+int main(){
+    Derived harry(1, 2, 3, 4);
+    harry.printDataBase1();
+    harry.printDataBase2();
+    harry.printDataDerived();
     return 0;
 }
 

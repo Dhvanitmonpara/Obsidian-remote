@@ -6,4 +6,4 @@ sticker: lucide//chevron-up
 2. [[Expressions & Conditions]]
 3. [[Loops & Functions]]
 4. [[Strings]]
-5. [[Arrays]]
+5. [[Javascript/Arrays]]

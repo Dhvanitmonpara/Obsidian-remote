@@ -8,6 +8,7 @@ sticker: lucide//home
 > [[DBMS]]
 > [[Git & Git-Hub]]
 > [[Computer science topics]]
+> [[cpp]]
 > [[GSAP]]
 
 > Automation 

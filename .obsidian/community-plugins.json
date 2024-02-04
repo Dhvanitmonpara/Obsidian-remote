@@ -1,5 +1,4 @@
 [
-  "remotely-save",
   "obsidian-style-settings",
   "highlightr-plugin",
   "dataview",
@@ -13,9 +12,6 @@
   "obsidian-linter",
   "notion-like-tables",
   "obsidian-reminder-plugin",
-  "obsidian-full-calendar",
-  "fantasy-calendar",
-  "heatmap-calendar",
   "obsidian-enhancing-mindmap",
   "make-md"
 ]
