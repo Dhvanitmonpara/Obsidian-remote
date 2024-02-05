@@ -10,6 +10,8 @@ sticker: lucide//chevron-up
 6. [[cpp/Arrays]]
 7. [[Manipulators]]
 8. [[Struct-Union-and-Enum]]
+9. [[File-IO]]
+10. [[Templates]]
 
 
 ## Object Oriented Programming
@@ -20,3 +22,5 @@ sticker: lucide//chevron-up
 5. [[Constructors]]
 6. [[Arrays-in-OOPs]]
 7. [[Inheritence]]
+8. [[Polymorphism]]
+9. [[Pointers-in-objects]]

@@ -1,3 +1,6 @@
+---
+sticker: lucide//chevron-up
+---
 # Definition
 
 “Poly” means several and “morphism” means form. So we can say that polymorphism is something that has several forms or we can say it as one name and multiple forms. There are two types of polymorphism:

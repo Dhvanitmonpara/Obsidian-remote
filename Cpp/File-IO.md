@@ -1,3 +1,6 @@
+---
+sticker: lucide//chevron-up
+---
 # Theory
 
 The file can be of any type whether it is a file of a C++ program, file of a game, or any other type of file. There are two main operations which can be performed on files

@@ -49,6 +49,8 @@
       "Javascrrpt",
       "/",
       "Project management",
+      "cpp",
+      "cpp",
       "cpp"
     ]
   },
@@ -88,7 +90,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1706522395078,
+  "spacesAutoBackupLast": 1707138092415,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",

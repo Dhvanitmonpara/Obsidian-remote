@@ -1,3 +1,6 @@
+---
+sticker: lucide//chevron-up
+---
 # Declaration
 
 In declaration with values, its on your hands to define array size or not.
