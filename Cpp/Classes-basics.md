@@ -1,12 +1,8 @@
 # Classes and objects
 
-C++ --> initially called --> C with classes by stroustroup
-class --> extension of structures (in C)
-structures had limitations
+C++ was initially called "C with classes by stroustroup". Class is extension of structures (in C) because structures had limitations.
 
-members are public
-
-No methods
+### Advantages of classes
 
 - classes --> structures + more
 - classes --> can have methods and properties

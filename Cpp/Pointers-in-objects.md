@@ -21,10 +21,10 @@ int main(){
 ### `new` keyword
 
 - Purpose: Allocates memory on the heap during runtime.
-- Usage: int* myInt = new int;
+- Usage: `int* myInt = new int;`.
 - Memory Allocation: Allocates memory dynamically.
 - Initialization: Allocated memory is not initialized.
-- Example: int* myArray = new int[5];
+- Example: `int* myArray = new int[5];`.
 
 ```cpp
 #include<iostream>
@@ -64,11 +64,11 @@ int main(){
 ### `delete` keyword
 
 - Purpose: Deallocates memory allocated with 'new'.
-- Usage: delete myInt;
+- Usage: delete `myInt;`.
 - Memory Deallocation: Releases allocated memory.
-- Array Deallocation: Use delete[] for arrays.
+- Array Deallocation: Use `delete[]` for arrays.
 - Prevention: Match 'new' with 'delete' and 'new[]' with 'delete[]'.
-- Example: delete myInt; delete[] myArray;
+- Example: `delete myInt; delete[] myArray;`.
 
 
 ```cpp

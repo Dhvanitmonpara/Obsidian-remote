@@ -87,7 +87,7 @@ public:
     // static funtion declaration
     static void getCount(void)
     {
-        // cout<<id; // throws an error
+        // cout<<id; // throws an error because a static function can only access staic members
         cout << endl
              << "The value of count is " << count << endl;
     }
@@ -120,7 +120,7 @@ int main()
 ```
 <br>
 
-# Arrays in objects
+# Arrays of objects
 
 ```cpp
 #include <iostream>

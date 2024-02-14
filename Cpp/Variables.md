@@ -7,9 +7,6 @@
 | Boolean   | bool        | 1 byte | True or False                        |
 | Float     | float       | 4 byte | Integer with decimal                 |
 | Double    | double      | 8 byte | Extended variable of float           |
-
-</br>
-
 # Global and local variables
 
 Use `:: (scope resolution operator)` to use global variable

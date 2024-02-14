@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "cedf7d43e5b6abd9",
+        "id": "f18c62a6783fe4c1",
         "type": "tabs",
         "children": [
           {
-            "id": "9dd4fde238061759",
+            "id": "1db585445acb9fcb",
             "type": "leaf",
             "state": {
-              "type": "make-folder-view",
+              "type": "markdown",
               "state": {
-                "contextPath": "cpp"
+                "file": "HOME.md",
+                "mode": "preview",
+                "source": false
               }
             }
           }
@@ -76,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 340.0046081542969
   },
   "right": {
     "id": "5a875565ada7376e",
@@ -92,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "HOME.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "HOME.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "HOME.md"
+              }
             }
           },
           {
@@ -145,14 +151,6 @@
             "type": "leaf",
             "state": {
               "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "9758352185979994",
-            "type": "leaf",
-            "state": {
-              "type": "reminder-list",
               "state": {}
             }
           }
@@ -178,39 +176,39 @@
       "notion-like-tables:Create new loom": false
     }
   },
-  "active": "9dd4fde238061759",
+  "active": "1db585445acb9fcb",
   "lastOpenFiles": [
+    "cpp/cpp.md",
     "HOME.md",
-    "cpp/Array.md",
-    "cpp/Templates.md",
+    "cpp/Classes-basics.md",
     "cpp/Polymorphism.md",
-    "cpp/Pointers-in-objects.md",
-    "cpp/File-IO.md",
     "cpp/Inheritence.md",
-    "Untitled.md",
-    "cpp/Arrays-in-OOPs.md",
-    "Developer roadmap.canvas",
-    "cpp/Pointers-and-Reference-var.md",
+    "cpp/Function-in-OOPs.md",
     "cpp/Functions.md",
-    "cpp/Variables.md",
-    "cpp/Recursion.md",
-    "cpp/Struct-Union-and-Enum.md",
-    "cpp/Arrays.md",
+    "cpp/Pointers-and-Reference-var.md",
+    "cpp/Pointers-in-objects.md",
+    "cpp/Arrays-in-OOPs.md",
+    "cpp/Constructors.md",
     "cpp/Four-pillars-of-OOP.md",
     "cpp/OOP-theory.md",
+    "cpp/Templates.md",
+    "cpp/File-IO.md",
+    "cpp/Struct-Union-and-Enum.md",
     "cpp/Manipulators.md",
-    "cpp/Constructors.md",
-    "cpp/Function-in-OOPs.md",
+    "cpp/Arrays.md",
     "cpp/Break-and-Continue.md",
-    "cpp/Classes-basics.md",
-    "cpp/cpp.md",
+    "cpp/Recursion.md",
+    "cpp/Variables.md",
+    "cpp/New folder",
+    "cpp/Array.md",
+    "Untitled.md",
+    "Developer roadmap.canvas",
     "Cpp/Break-and-Continue.md",
     "Cpp/Recursion.md",
     "Pasted image 20231023164606.png",
     "Pasted image 20231023164640.png",
     "Pasted image 20231023163623.png",
     "Pasted image 20230926113855.jpg",
-    "Git & Github/Basics and theory.md",
     "C++",
     "Computer science topics",
     "create_favicon.png",
@@ -220,7 +218,6 @@
     ".md",
     "Git & Github",
     "Javascript",
-    "Project management",
-    "HTML"
+    "Project management"
   ]
 }

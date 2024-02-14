@@ -275,6 +275,72 @@ class D : public B, public C {
 
 ```
 
+In this example, `class b` and `class c` are virtually inherited from `class a`. when a programmer inherit `class d` from `class b` and `class c`, It directly inherits from `class a`.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+class a
+{
+protected:
+    int a = 10;
+public:
+    void func1(void)
+    {
+        cout << endl
+             << "This is a : " << a;
+    }
+};
+
+class b : virtual public a
+{
+public:
+    void func2(void)
+    {
+       a = 20;
+        cout << endl
+             << "This is b : " << a;
+    }
+};
+
+class c : virtual public a
+{
+public:
+    void func3(void)
+    {
+        a = 30;
+        cout << endl
+             << "This is c : " << a;
+    }
+};
+
+class d : public b, public c
+{
+public:
+    void func4(void)
+    {
+        cout << endl
+             << "This is d : " << a;
+    }
+};
+
+int main()
+{
+    a obj1;
+    b obj2;
+    c obj3;
+    d obj4;
+  
+    obj1.func1();
+    obj2.func2();
+    obj3.func3();
+    obj4.func4();
+
+    return 0;
+}
+```
+
 <br>
 
 # Constructors in derived class
@@ -287,6 +353,9 @@ class D : public B, public C {
 
 
 ```cpp
+#include <iostream>
+using namespace std;
+
 class Base1{
     int data1;
     public:

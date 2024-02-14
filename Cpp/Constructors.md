@@ -272,8 +272,8 @@ int main(){
 The initialization list in constructors is another concept of initializing the data members of the class. The syntax of the initialization list in constructors is shown below.
 
 ```cpp
-/*
-Syntax for initialization list in constructor:
+
+// Syntax for initialization list in constructor:
 constructor (argument-list) : initilization-section
 {
     assignment + other code;
