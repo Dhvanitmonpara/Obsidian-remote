@@ -32,6 +32,18 @@ The below code block represents var declaration, in which `'a'` is identifier an
 5. var (variables) are initialized with undefined whereas let and const variables are not initialized.
 6. const must be initialized during declaration unlike let and const..
 
+# Typecasting
+
+```js
+variable_name = new_var_type.parse_new_variable_type(new_var_name)
+```
+
+Example:
+
+```js
+age = Number.parseInt(age);
+```
+
 # Primitive Data-types & Objects
 
 Primitive data types are a set of basic data types in javascript.
@@ -76,7 +88,7 @@ If the object will change still refrence does not matters of it.
 
 
 ```javascript
-console.log(A1(Name));
+console.log(A1["Name"]);
 console.log(A1.Name);
 ```
 

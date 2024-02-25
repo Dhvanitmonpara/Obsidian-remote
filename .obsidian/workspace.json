@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f18c62a6783fe4c1",
+        "id": "26e25403046a4269",
         "type": "tabs",
         "children": [
           {
-            "id": "1db585445acb9fcb",
+            "id": "1e10b24d7f72bff6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HOME.md",
+                "file": "Javascript/Javascript.md",
                 "mode": "preview",
                 "source": false
               }
@@ -66,19 +66,26 @@
             }
           },
           {
-            "id": "c732e15901370ba3",
+            "id": "1f004c2fa5f0e44c",
             "type": "leaf",
             "state": {
               "type": "mk-file-view",
               "state": {}
             }
+          },
+          {
+            "id": "0a2fec35fa3d6ad2",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 340.0046081542969
+    "width": 334.00507736206055
   },
   "right": {
     "id": "5a875565ada7376e",
@@ -94,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOME.md",
+                "file": "Javascript/Javascript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOME.md",
+                "file": "Javascript/Javascript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOME.md"
+                "file": "Javascript/Javascript.md"
               }
             }
           },
@@ -153,9 +160,17 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "f94cf48dcc2326c2",
+            "type": "leaf",
+            "state": {
+              "type": "make-context-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -176,10 +191,24 @@
       "notion-like-tables:Create new loom": false
     }
   },
-  "active": "1db585445acb9fcb",
+  "active": "1e10b24d7f72bff6",
   "lastOpenFiles": [
-    "cpp/cpp.md",
     "HOME.md",
+    "Javascript/Javascript.md",
+    "Javascript/Expressions & Conditions.md",
+    "Javascript/Loops & Functions.md",
+    "Javascript/Strings.md",
+    "Javascript/Arrays.md",
+    "Javascript/Basics of Javascript.md",
+    "Javascript/Variables & Data-types.md",
+    "Spaces/Home",
+    "Spaces",
+    "Developer roadmap.canvas",
+    "PL-SQL.md",
+    "CSS - Comprehensive notes/CSS - Comprehensive notes.md",
+    "CSS - Refrences/Grid layout.md",
+    "CSS - Refrences/CSS - Refrences.md",
+    "cpp/cpp.md",
     "cpp/Classes-basics.md",
     "cpp/Polymorphism.md",
     "cpp/Inheritence.md",
@@ -192,19 +221,7 @@
     "cpp/Four-pillars-of-OOP.md",
     "cpp/OOP-theory.md",
     "cpp/Templates.md",
-    "cpp/File-IO.md",
-    "cpp/Struct-Union-and-Enum.md",
-    "cpp/Manipulators.md",
-    "cpp/Arrays.md",
-    "cpp/Break-and-Continue.md",
-    "cpp/Recursion.md",
-    "cpp/Variables.md",
     "cpp/New folder",
-    "cpp/Array.md",
-    "Untitled.md",
-    "Developer roadmap.canvas",
-    "Cpp/Break-and-Continue.md",
-    "Cpp/Recursion.md",
     "Pasted image 20231023164606.png",
     "Pasted image 20231023164640.png",
     "Pasted image 20231023163623.png",
@@ -216,8 +233,6 @@
     "context.mdb",
     "DBMS",
     ".md",
-    "Git & Github",
-    "Javascript",
-    "Project management"
+    "Git & Github"
   ]
 }

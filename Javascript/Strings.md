@@ -60,6 +60,8 @@ console.log(friend.trim())
 let name = "Harry" + "Shivika" + "Raman" // You can also write concat strings like this
 ```
 
+# Template literals
+
 ```js
 let friend1 = "Harry"
 let friend2 = "Raman"
@@ -67,4 +69,9 @@ let friend2 = "Raman"
 console.log(`${friend1} is a friend of ${friend2`)
 ```
 
-Visit (MDN) for more details about string methods.
+**References:**
+Visit [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) for more details about string methods.
+Link to [String references](https://replit.com/@codewithharry/13Strings?v=1#.tutorial/13-strings.md)
+Link [String methods](https://replit.com/@codewithharry/14StringMethods?v=1#.tutorial/14-string-module.md) 
+
+Next topic is [[Javascript/Arrays|Arrays]].

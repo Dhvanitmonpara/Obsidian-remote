@@ -124,3 +124,5 @@ let age = 12;
 let a = age > 18 ? "You can drive" : "You cannont drive"
 console.log(a)
 ```
+
+Next topic is [[Loops & Functions]].

@@ -55,7 +55,7 @@ for(let a in obj) {
 
 # For-of loop
 
-It uses for print an array.
+It uses for print an array. and note that object must be iterable.
 ```js
 for(variable f iterable) {
 	// code to be executed
@@ -64,14 +64,6 @@ for(variable f iterable) {
 
 **Example:**
 ```js
-let obj = {
-    Harry: 90,
-    shruti: 40,
-    Harsh: 25,
-    Manasvi: 37,
-    Shradha: 70
-}
-
 // For-of loop
 for(let a of "Harry") {
     console.log(a)
@@ -131,6 +123,7 @@ console.log("sum of " + c + " and " + c + " is " + sum(c, a))
 # Use const instead
 
 ```js
+// This is arrow function BTW
 const sum = (x,y)=>{
 	let c = x + y
 	return c
@@ -140,3 +133,5 @@ let a = 3
 let b = 7
 console.log("The sum is " + sum(a,b))
 ```
+
+Next topic is [[Strings]].

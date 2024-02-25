@@ -77,4 +77,9 @@ Array.isArray(array); // true or false
 
 These reference notes cover essentials for working with JavaScript arrays, from creation to manipulation and iteration.
 
+**References:**
 Visit [Replit](https://replit.com/@codewithharry) for more details.
+Link to [Array references](https://replit.com/@codewithharry/16Arrays?v=1#.tutorial/16_arrays.md) 
+Link to [Array methods](https://replit.com/@codewithharry/17Arraymethods1?v=1#.tutorial/17_arraymethods.md) and [more array methods](https://replit.com/@codewithharry/18Arraymethods2?v=1#.tutorial/18_array_methods2.md)
+Link to [Array loops](https://replit.com/@codewithharry/19ArrayLoops?v=1#.tutorial/19_array_loops.md)
+Link to [map, filter and reduce](https://replit.com/@codewithharry/20mapfilterreduce?v=1#.tutorial/20_map_filter.md) methods.
