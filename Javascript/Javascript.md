@@ -7,3 +7,6 @@ sticker: lucide//chevron-up
 3. [[Loops & Functions]]
 4. [[Strings]]
 5. [[Javascript/Arrays]]
+6. [[In browser JavaScript]]
+7. [[Walking the DOM]]
+8. [[Events and DOM properties]]

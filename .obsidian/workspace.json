@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "26e25403046a4269",
+        "id": "e6dffe69f654a514",
         "type": "tabs",
         "children": [
           {
-            "id": "1e10b24d7f72bff6",
+            "id": "a9616a707a8142af",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Javascript/Javascript.md",
-                "mode": "preview",
+                "file": "Javascript/Walking the DOM.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9bdf532dfdd79747",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Javascript/Events and DOM properties.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,11 +94,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 334.00507736206055
+    "width": 321.00507736206055
   },
   "right": {
     "id": "5a875565ada7376e",
@@ -101,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Javascript/Javascript.md",
+                "file": "Javascript/Events and DOM properties.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Javascript/Javascript.md",
+                "file": "Javascript/Events and DOM properties.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Javascript/Javascript.md"
+                "file": "Javascript/Events and DOM properties.md"
               }
             }
           },
@@ -170,11 +184,11 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 413,
+    "width": 631,
     "collapsed": true
   },
   "left-ribbon": {
@@ -191,20 +205,24 @@
       "notion-like-tables:Create new loom": false
     }
   },
-  "active": "1e10b24d7f72bff6",
+  "active": "9bdf532dfdd79747",
   "lastOpenFiles": [
-    "HOME.md",
+    "Javascript/Walking the DOM.md",
+    "Javascript/Events and DOM properties.md",
     "Javascript/Javascript.md",
-    "Javascript/Expressions & Conditions.md",
+    "HOME.md",
     "Javascript/Loops & Functions.md",
-    "Javascript/Strings.md",
-    "Javascript/Arrays.md",
-    "Javascript/Basics of Javascript.md",
+    "Javascript/In browser JavaScript.md",
     "Javascript/Variables & Data-types.md",
+    "Vault.md",
+    "Javascript/Strings.md",
+    "Javascript/Expressions & Conditions.md",
+    "Javascript/Basics of Javascript.md",
+    "Javascript/Arrays.md",
+    "PL-SQL.md",
     "Spaces/Home",
     "Spaces",
     "Developer roadmap.canvas",
-    "PL-SQL.md",
     "CSS - Comprehensive notes/CSS - Comprehensive notes.md",
     "CSS - Refrences/Grid layout.md",
     "CSS - Refrences/CSS - Refrences.md",
@@ -218,9 +236,6 @@
     "cpp/Pointers-in-objects.md",
     "cpp/Arrays-in-OOPs.md",
     "cpp/Constructors.md",
-    "cpp/Four-pillars-of-OOP.md",
-    "cpp/OOP-theory.md",
-    "cpp/Templates.md",
     "cpp/New folder",
     "Pasted image 20231023164606.png",
     "Pasted image 20231023164640.png",

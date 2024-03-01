@@ -57,7 +57,7 @@ for(let a in obj) {
 
 It uses for print an array. and note that object must be iterable.
 ```js
-for(variable f iterable) {
+for(variable of iterable) {
 	// code to be executed
 }
 ```
