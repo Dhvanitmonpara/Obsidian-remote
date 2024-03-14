@@ -10,3 +10,7 @@ sticker: lucide//chevron-up
 6. [[In browser JavaScript]]
 7. [[Walking the DOM]]
 8. [[Events and DOM properties]]
+9. [[Callbacks, Promise and Async-Await]]
+10. [[Fetch API, Cookies and sessionStorage-LocalStorage]]
+11. [[Object Oriented Programming]]
+12. [[Advanced JavaScript topics]]

@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "e6dffe69f654a514",
+        "id": "882849a8813b9004",
         "type": "tabs",
         "children": [
           {
-            "id": "a9616a707a8142af",
+            "id": "c651ddf085e42377",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Javascript/Walking the DOM.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9bdf532dfdd79747",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Javascript/Events and DOM properties.md",
+                "file": "Javascript/Advanced JavaScript topics.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,8 +81,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -115,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Javascript/Events and DOM properties.md",
+                "file": "Javascript/Advanced JavaScript topics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Javascript/Events and DOM properties.md",
+                "file": "Javascript/Advanced JavaScript topics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Javascript/Events and DOM properties.md"
+                "file": "Javascript/Advanced JavaScript topics.md"
               }
             }
           },
@@ -205,14 +191,23 @@
       "notion-like-tables:Create new loom": false
     }
   },
-  "active": "9bdf532dfdd79747",
+  "active": "c651ddf085e42377",
   "lastOpenFiles": [
-    "Javascript/Walking the DOM.md",
-    "Javascript/Events and DOM properties.md",
     "Javascript/Javascript.md",
+    "Javascript/Events and DOM properties.md",
     "HOME.md",
-    "Javascript/Loops & Functions.md",
+    "CSS - Refrences/CSS - Refrences.md",
+    "Javascript/Fetch API, Cookies and sessionStorage-LocalStorage.md",
+    "Javascript/Advanced JavaScript topics.md",
+    "Javascript/Callbacks, Promise and Async-Await.md",
+    "Javascript/Object Oriented Programming.md",
+    "CSS - Comprehensive notes/CSS - Comprehensive notes.md",
+    "CSS - Refrences/Grid layout.md",
     "Javascript/In browser JavaScript.md",
+    "Javascript/Callbacks, Promise and Async/Await.md",
+    "Javascript/Callbacks, Promise and Async",
+    "Javascript/Walking the DOM.md",
+    "Javascript/Loops & Functions.md",
     "Javascript/Variables & Data-types.md",
     "Vault.md",
     "Javascript/Strings.md",
@@ -223,19 +218,11 @@
     "Spaces/Home",
     "Spaces",
     "Developer roadmap.canvas",
-    "CSS - Comprehensive notes/CSS - Comprehensive notes.md",
-    "CSS - Refrences/Grid layout.md",
-    "CSS - Refrences/CSS - Refrences.md",
     "cpp/cpp.md",
     "cpp/Classes-basics.md",
     "cpp/Polymorphism.md",
     "cpp/Inheritence.md",
     "cpp/Function-in-OOPs.md",
-    "cpp/Functions.md",
-    "cpp/Pointers-and-Reference-var.md",
-    "cpp/Pointers-in-objects.md",
-    "cpp/Arrays-in-OOPs.md",
-    "cpp/Constructors.md",
     "cpp/New folder",
     "Pasted image 20231023164606.png",
     "Pasted image 20231023164640.png",
@@ -247,7 +234,6 @@
     "Untitled.loom",
     "context.mdb",
     "DBMS",
-    ".md",
-    "Git & Github"
+    ".md"
   ]
 }

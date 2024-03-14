@@ -72,4 +72,10 @@ font-style: normal/italic/oblique/inherit/initial/revert;
 font-variant: small-caps/all-small-caps/unicase;
 ```
 
+**Note:** use `!important` property after any value to give it special importance.
+
+```css
+background: #000 !important;    // consider as important
+```
+
 Font resources: www.googlefonts.com
