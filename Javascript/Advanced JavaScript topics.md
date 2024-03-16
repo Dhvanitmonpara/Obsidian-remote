@@ -172,4 +172,252 @@ Understanding the behavior of `this` is crucial for writing correct and maintain
 
 IIFEs are a powerful tool in JavaScript for creating self-contained and modular code, particularly in situations where you want to avoid polluting the global namespace or need to create isolated scopes.
 
-# 
+# Destructuring assignments and spread operators
+
+**Destructuring Assignments:**
+
+- **Definition:**
+  - Destructuring assignment is a convenient way of extracting multiple values from data stored in objects and arrays and assigning them to variables.
+
+- **Syntax:**
+  - Object Destructuring:
+    ```javascript
+    const { prop1, prop2 } = obj;
+    ```
+  - Array Destructuring:
+    ```javascript
+    const [item1, item2] = array;
+    ```
+
+- **Object Destructuring:**
+  - Extracts values from objects based on their properties.
+  - Variable names must match object property names to extract values.
+  - Can provide default values.
+  
+- **Array Destructuring:**
+  - Extracts values from arrays based on their positions.
+  - Variables are assigned values based on their order in the array.
+  - Can also provide default values.
+
+- **Usage:**
+  - Extracting values from function parameters.
+  - Simplifying code by extracting values directly from objects or arrays.
+
+- **Examples:**
+  ```javascript
+  const person = { name: 'John', age: 30 };
+  const { name, age } = person;
+  console.log(name, age); // Output: John 30
+
+  const colors = ['red', 'green', 'blue'];
+  const [firstColor, secondColor] = colors;
+  console.log(firstColor, secondColor); // Output: red green
+  ```
+
+Visit [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) for more syntaxes.
+
+**Spread Operators:**
+
+- **Definition:**
+  - Spread operators allow an iterable (like an array or string) to be expanded into individual elements.
+
+- **Syntax:**
+  - Spread in Arrays:
+    ```javascript
+    const newArray = [...oldArray];
+    ```
+  - Spread in Objects:
+    ```javascript
+    const newObject = { ...oldObject };
+    ```
+
+- **Spread in Arrays:**
+  - Copies elements from one array into another.
+  - Can combine multiple arrays or add new elements.
+  - Useful for creating shallow copies of arrays.
+
+- **Spread in Objects:**
+  - Copies properties from one object into another.
+  - Can combine multiple objects or add new properties.
+  - Useful for creating shallow copies of objects.
+
+- **Usage:**
+  - Copying arrays and objects without mutating the original.
+  - Merging multiple arrays or objects into a single array or object.
+
+- **Examples:**
+  ```javascript
+  const numbers = [1, 2, 3];
+  const newNumbers = [...numbers, 4, 5];
+  console.log(newNumbers); // Output: [1, 2, 3, 4, 5]
+
+  const person = { name: 'John', age: 30 };
+  const newPerson = { ...person, email: 'john@example.com' };
+  console.log(newPerson); // Output: { name: 'John', age: 30, email: 'john@example.com' }
+  ```
+
+**Conclusion:**
+- Destructuring assignments and spread operators are powerful features in JavaScript for working with objects and arrays.
+- They provide concise syntax for extracting values and making copies without mutating the original data.
+- Understanding and using these features can lead to more readable and maintainable code in JavaScript projects.
+
+Visit [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) for more syntaxes or watch video number [87](https://youtu.be/_BsE5kmJk6Q?si=SlE0ixAI6zq7JqTz) for better understanding.
+
+# Scope in JavaScript
+
+**Definition:**
+- Scope refers to the visibility and accessibility of variables and functions within a program.
+
+**Global Scope:**
+- Variables/functions defined outside any function/block.
+- Accessible from anywhere in the code.
+
+**Local Scope:**
+- Variables/functions declared within a function/block.
+- Accessible only within the same function/block.
+
+**Scope Behavior:**
+- `var`: Function-scoped, hoisted to the top of its scope.
+- `let`/`const`: Block-scoped, not hoisted.
+- Inner scopes can access variables from outer scopes, but not vice versa.
+
+**Importance:**
+- Proper scope management prevents naming conflicts and unintended side effects.
+- Helps maintain clean, modular, and bug-free code.
+
+**Conclusion:**
+- Understanding scope is fundamental for writing reliable and maintainable JavaScript code. It ensures variables and functions are used where and when they are intended, leading to more predictable program behavior.
+
+
+# Hoisting
+
+**Definition:**
+- Hoisting is a JavaScript behavior where variable and function declarations are moved to the top of their containing scope during the compilation phase.
+
+**Variables:**
+- Variable declarations (using `var`, `let`, or `const`) are hoisted, but not their assignments.
+- `var` declarations are hoisted to the top of their function scope or the global scope if declared outside any function.
+- `let` and `const` declarations are hoisted to the top of their block scope, but they are not initialized until their declaration statement.
+
+**Functions:**
+- Function declarations are fully hoisted, including their definitions.
+- Function expressions (assigned to variables) are not hoisted in the same way.
+
+**Example:**
+```javascript
+console.log(x); // Output: undefined
+var x = 10;
+
+hoistedFunction(); // Output: "Function hoisted!"
+function hoistedFunction() {
+  console.log("Function hoisted!");
+}
+
+// Example with let
+console.log(y); // Throws ReferenceError
+let y = 20;
+```
+
+**Note:**
+- Hoisting can lead to unexpected behavior if not understood properly.
+- It's a feature of JavaScript's lexical scoping mechanism, but can sometimes be confusing if relied upon excessively.
+- Best practice: Declare variables at the top of their scope and use functions before their declaration.
+
+
+# Arrow function revisit
+
+**Arrow Functions in JavaScript**
+
+---
+
+**Definition:**
+- Arrow functions are a concise syntax for writing function expressions in JavaScript.
+
+**Syntax:**
+- Basic Syntax:
+  ```javascript
+  const functionName = () => {
+    // function body
+  };
+  ```
+- Shorter Syntax (for single expressions):
+  ```javascript
+  const functionName = () => /* expression */;
+  ```
+
+**Features:**
+- Lexical `this`: Arrow functions do not have their own `this` context. They inherit `this` from the surrounding lexical scope.
+- No `arguments` object: Arrow functions do not have their own `arguments` object. Instead, they inherit it from the containing function.
+- Implicit return: Arrow functions automatically return the result of the expression without needing an explicit `return` statement for single expressions.
+
+**Usage:**
+- Callback functions: Concise syntax makes arrow functions ideal for use as callback functions.
+- Method definitions: Often used for defining methods in objects.
+- Avoiding `this` confusion: Provides a cleaner alternative to traditional function expressions when dealing with `this` context.
+
+**Examples:**
+```javascript
+// Basic arrow function
+const greet = () => {
+  console.log("Hello!");
+};
+
+// Arrow function with parameters
+const add = (a, b) => {
+  return a + b;
+};
+
+// Arrow function with implicit return
+const square = (x) => x * x;
+
+// Arrow function as callback
+const numbers = [1, 2, 3];
+const doubledNumbers = numbers.map((num) => num * 2);
+```
+
+**Note:**
+- Arrow functions are not suitable for all situations, particularly when dynamic `this` or `arguments` behavior is needed.
+- Consider the lexical scoping behavior carefully, especially when using `this` inside arrow functions.
+
+
+# Closures in JavaScript
+
+**Definition:**
+- A closure is a combination of a function and the lexical environment within which that function was declared. It allows a function to retain access to variables from its containing scope even after that scope has finished executing.
+
+**Features:**
+- Retention of scope: Inner functions have access to variables and parameters of their outer (enclosing) function even after the outer function has returned.
+- Preservation of state: Allows functions to "remember" and maintain their own unique state across multiple invocations.
+
+**Creation:**
+- Closures are created whenever a function is defined within another function, and the inner function accesses variables from the outer function's scope.
+
+**Usage:**
+- Data privacy: Encapsulation of variables within a closure provides a way to create private variables and methods inaccessible from outside the closure.
+- Functional programming: Closures enable the creation of higher-order functions and facilitate techniques such as currying and memoization.
+- Event handlers and callbacks: Often used to maintain state or pass additional data to event handlers and callback functions.
+
+**Example:**
+```javascript
+function outerFunction() {
+  let outerVar = 'I am from outer function';
+
+  function innerFunction() {
+    console.log(outerVar);
+  }
+
+  return innerFunction;
+}
+
+const closure = outerFunction();
+closure(); // Output: "I am from outer function"
+```
+
+**Considerations:**
+- Be mindful of memory usage: Closures retain references to their enclosing scope, potentially leading to memory leaks if not managed properly.
+- Understand the scope chain: Proper understanding of lexical scoping and closure behavior is crucial to avoid unexpected results.
+
+**Conclusion:**
+- Closures are a powerful and fundamental concept in JavaScript, enabling advanced programming techniques and providing a means to create encapsulated, reusable code. Understanding closures is essential for mastering JavaScript development.
+
+
