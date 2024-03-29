@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "adf6fe14981b0180",
+        "id": "21684e3c693413d4",
         "type": "tabs",
         "children": [
           {
-            "id": "fd975de7916381a6",
+            "id": "91cdad699fdcbf74",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Javascript/Javascript.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "06e25acc0723dacf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Javascript/JavaScript on the server.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -115,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Javascript/JavaScript on the server.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Javascript/JavaScript on the server.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Javascript/JavaScript on the server.md"
+                "file": "README.md"
               }
             }
           },
@@ -184,7 +171,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -205,38 +192,38 @@
       "notion-like-tables:Create new loom": false
     }
   },
-  "active": "06e25acc0723dacf",
+  "active": "91cdad699fdcbf74",
   "lastOpenFiles": [
-    "Javascript/Javascript.md",
-    "Javascript/JavaScript on the server.md",
     "HOME.md",
+    "README.md",
+    "Javascript/Javascript.md",
+    "Javascript/Events and DOM properties.md",
+    "ReactJs.md",
+    "Spaces/Spaces.md",
+    "Javascript/Advanced JavaScript topics.md",
+    "Javascript/Object Oriented Programming.md",
+    "Javascript/Fetch API, Cookies and sessionStorage-LocalStorage.md",
+    "Javascript/Callbacks, Promise and Async-Await.md",
+    "Javascript/Walking the DOM.md",
+    "Javascript/In browser JavaScript.md",
+    "Javascript/Arrays.md",
+    "Javascript/JavaScript on the server.md",
+    "Javascript/Basics of Javascript.md",
+    "Javascript/Variables & Data-types.md",
+    "Javascript/Expressions & Conditions.md",
+    "Javascript/Loops & Functions.md",
+    "Javascript/Strings.md",
+    "Developer roadmap.canvas",
     "CSS - Comprehensive notes/CSS - Comprehensive notes.md",
     "CSS - Refrences/CSS - Refrences.md",
-    "Javascript/Events and DOM properties.md",
-    "Javascript/Fetch API, Cookies and sessionStorage-LocalStorage.md",
-    "Javascript/Advanced JavaScript topics.md",
-    "Javascript/Callbacks, Promise and Async-Await.md",
-    "Javascript/Object Oriented Programming.md",
     "CSS - Refrences/Grid layout.md",
-    "Javascript/In browser JavaScript.md",
     "Javascript/Callbacks, Promise and Async/Await.md",
     "Javascript/Callbacks, Promise and Async",
-    "Javascript/Walking the DOM.md",
-    "Javascript/Loops & Functions.md",
-    "Javascript/Variables & Data-types.md",
     "Vault.md",
-    "Javascript/Strings.md",
-    "Javascript/Expressions & Conditions.md",
-    "Javascript/Basics of Javascript.md",
-    "Javascript/Arrays.md",
     "PL-SQL.md",
     "Spaces/Home",
     "Spaces",
-    "Developer roadmap.canvas",
     "cpp/cpp.md",
-    "cpp/Classes-basics.md",
-    "cpp/Polymorphism.md",
-    "cpp/Inheritence.md",
     "cpp/New folder",
     "Pasted image 20231023164606.png",
     "Pasted image 20231023164640.png",

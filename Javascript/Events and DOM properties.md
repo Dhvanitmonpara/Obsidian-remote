@@ -213,3 +213,5 @@ you can also use `elem.removeEventListener()` to remove event listener.
 ```js
 elem.removeEventListener();
 ```
+
+Next topic is [[Callbacks, Promise and Async-Await]].

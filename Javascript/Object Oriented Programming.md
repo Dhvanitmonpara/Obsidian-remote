@@ -465,3 +465,5 @@ This cheatsheet summarizes key concepts from the provided JavaScript OOP tutoria
 [Video number 80](https://replit.com/@codewithharry/80Overridingconstructors?v=1#script.js) for overriding constructors.
 [Video number 81](https://replit.com/@codewithharry/81staticmethods?v=1#script.js) for Static methods.
 [Video number 82](https://replit.com/@codewithharry/82gettersandsetters?v=1#script.js) for getters and setters.
+
+Next topic is [[Advanced JavaScript topics]].

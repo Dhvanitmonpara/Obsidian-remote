@@ -270,3 +270,5 @@ console.log('End');
 - It enables developers to handle asynchronous operations effectively and build responsive, performant applications across various environments, including web browsers and Node.js.
 
 Watch [event loop in Js](https://youtu.be/vFJbKR6zfCE?si=Lf0DpmiGA-mprNNt) for better understanding.
+
+Go to classwork folder and review some projects and exersices.

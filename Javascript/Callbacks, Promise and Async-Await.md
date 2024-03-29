@@ -446,3 +446,5 @@ throw new RefferenceError('Harry is not defined')	// to throw new custom error
 ```
 
 There are multiple type of errors, check [MDN]() for all of them.
+
+Next topic is [[Fetch API, Cookies and sessionStorage-LocalStorage]].

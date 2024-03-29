@@ -326,10 +326,6 @@ let y = 20;
 
 # Arrow function revisit
 
-**Arrow Functions in JavaScript**
-
----
-
 **Definition:**
 - Arrow functions are a concise syntax for writing function expressions in JavaScript.
 
@@ -421,3 +417,4 @@ closure(); // Output: "I am from outer function"
 - Closures are a powerful and fundamental concept in JavaScript, enabling advanced programming techniques and providing a means to create encapsulated, reusable code. Understanding closures is essential for mastering JavaScript development.
 
 
+Next topic is [[JavaScript on the server]].

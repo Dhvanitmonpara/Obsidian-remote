@@ -105,4 +105,4 @@ console.timeEnd("Time taken by while loop");
 Link to [alert, prompt and confirm](https://replit.com/@codewithharry/27alertpromptconfirm?v=1#.tutorial/27_alert.md)
 Link to [Document Object Model and Browser Object Model](https://replit.com/@codewithharry/28windowBOMDOM#.tutorial/28_window.md)
 
-Next topic is [[Walking the DOM]]
+Next topic is [[Walking the DOM]].

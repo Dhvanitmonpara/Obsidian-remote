@@ -196,3 +196,5 @@ for (let i = 0; i < row.cells.length; i++) {
 // it'll access input value given by user from HTML doc.
 selectedInputTag.value
 ```
+
+Next topic is [[Events and DOM properties]].

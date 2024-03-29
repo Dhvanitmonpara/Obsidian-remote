@@ -272,3 +272,5 @@ window.onstorage = (event) => {
 This code snippet allows you to monitor and respond to changes in the storage area within your web application.
 
 Watch video number [70](https://youtu.be/rfSJeox61vA?si=X656UKrnkkMDFElY) for better understanding.
+
+Next topic is [[Object Oriented Programming]].
