@@ -52,7 +52,7 @@ int main()
 
 The memory is only allocated to the variables of the class when the object is created.
 
-visit this link for diagram - https://programmingknow.com/wp-content/uploads/2021/09/memory-allocation-for-objects-in-c-plus-plus.jpg
+visit [this link](https://programmingknow.com/wp-content/uploads/2021/09/memory-allocation-for-objects-in-c-plus-plus.jpg) for diagram.
 
 <br>
 
@@ -84,7 +84,7 @@ public:
              << "The id of this employee is " << id << " and this is employee number " << count;
     }
 
-    // static funtion declaration
+    // static function declaration
     static void getCount(void)
     {
         // cout<<id; // throws an error because a static function can only access staic members

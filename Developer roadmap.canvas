@@ -1,8 +1,8 @@
 {
 	"nodes":[
-		{"id":"fbe582f5854fde0b","type":"text","text":"**Javascript frameworks**\n- [ ] react js (15D)\n- [ ] next js (10D)\n- [ ] Node js (15D)\n- [ ] express js (2-5D)\n- [ ] Typescript (20D)","x":-635,"y":150,"width":254,"height":240,"color":"1"},
-		{"id":"392e656b7ab78259","type":"text","text":"**CSS frameworks**\n- [ ] Tailwind (2D)\n- [x] Bootstrap (1D)\n- [ ] Redix Ui (1D)\n- [ ] Shadcn UI (1D)","x":-623,"y":-242,"width":229,"height":200,"color":"1"},
-		{"id":"bdbe3796d287d06b","type":"text","text":"- [ ] Javascript (1M)","x":-623,"y":10,"width":229,"height":60,"color":"1"},
+		{"id":"fbe582f5854fde0b","type":"text","text":"**Javascript frameworks**\n- [x] react js (15D)\n- [ ] next js (10D)\n- [x] Node js (15D)\n- [x] express js (2-5D)\n- [ ] Typescript (20D)","x":-635,"y":150,"width":254,"height":240,"color":"1"},
+		{"id":"392e656b7ab78259","type":"text","text":"**CSS frameworks**\n- [x] Tailwind (2D)\n- [x] Bootstrap (1D)\n- [ ] Redix Ui (1D)\n- [ ] Shadcn UI (1D)","x":-623,"y":-242,"width":229,"height":200,"color":"1"},
+		{"id":"bdbe3796d287d06b","type":"text","text":"- [x] Javascript (1M)","x":-623,"y":10,"width":229,"height":60,"color":"1"},
 		{"id":"c194fd94de5e310b","type":"text","text":"- [x] HTML (7D) \n- [x] CSS (15D)","x":-623,"y":-390,"width":229,"height":90,"color":"1"},
 		{"id":"ca922fb8f7e121c4","type":"text","text":"# Ai Devlopment","x":104,"y":-1530,"width":300,"height":80},
 		{"id":"d325dcbbfc4d608f","type":"text","text":"# Cyber security & Ethical Hacking","x":-2029,"y":-247,"width":312,"height":135},
@@ -36,13 +36,13 @@
 		{"id":"98dc57d468750c5b","type":"text","text":"- [ ] Java (1M)","x":-1191,"y":-1100,"width":250,"height":60},
 		{"id":"83b640337edca03a","type":"text","text":"- [ ] Operating System (15-17D)","x":-1583,"y":-833,"width":296,"height":60},
 		{"id":"9928c008644dc25f","type":"text","text":"- [ ] PostgreSQL (2D)","x":-1897,"y":-1530,"width":220,"height":60,"color":"5"},
-		{"id":"6ce01b2ae7ef5178","x":-2173,"y":30,"width":282,"height":60,"type":"text","text":"- [ ] Computer networks (1M+)"},
+		{"id":"6ce01b2ae7ef5178","type":"text","text":"- [ ] Computer networks (1M+)","x":-2173,"y":30,"width":282,"height":60},
 		{"id":"b5569203112f5a94","type":"text","text":"- [ ] Cloud computing (1M)","x":-1891,"y":150,"width":283,"height":50},
 		{"id":"3d3a5ab23e16e94b","type":"text","text":"- [ ] DevOps (1M)","x":177,"y":-863,"width":250,"height":60},
 		{"id":"2582e8fc72212b0a","type":"text","text":"- [ ] Testing (7D)","x":161,"y":-732,"width":216,"height":67},
 		{"id":"e5cd8d123b5ea857","type":"text","text":"- [ ] CI/CD (2D)","x":140,"y":-600,"width":194,"height":60},
 		{"id":"7ba79a40945b0909","type":"text","text":"- [ ] Integration testing\n- [ ] Unit testing\n- [ ] Functional testing","x":480,"y":-761,"width":267,"height":125},
-		{"id":"b55eecb9558f4621","x":-187,"y":-1320,"width":308,"height":60,"type":"text","text":"- [ ] Artificial Intelligence (1M)"},
+		{"id":"b55eecb9558f4621","type":"text","text":"- [ ] Artificial Intelligence (1M)","x":-187,"y":-1320,"width":308,"height":60},
 		{"id":"645018a926b3b87d","type":"text","text":"- [ ] PHP (1M)","x":-873,"y":-863,"width":250,"height":60},
 		{"id":"da6a4f08c2bfbf66","type":"text","text":"# Web Development","x":-440,"y":-784,"width":368,"height":86},
 		{"id":"65013086a124e917","type":"text","text":"- [x] Git and Github ","x":-973,"y":-450,"width":200,"height":60}

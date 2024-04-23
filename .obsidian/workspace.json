@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "21684e3c693413d4",
+        "id": "3ac0adba7a35bb3e",
         "type": "tabs",
         "children": [
           {
-            "id": "91cdad699fdcbf74",
+            "id": "e094476d259fef9b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
+                "file": "cpp/Function-in-OOPs.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "friend function",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,7 +82,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "cpp/Function-in-OOPs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "cpp/Function-in-OOPs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "cpp/Function-in-OOPs.md"
               }
             }
           },
@@ -192,38 +192,38 @@
       "notion-like-tables:Create new loom": false
     }
   },
-  "active": "91cdad699fdcbf74",
+  "active": "e094476d259fef9b",
   "lastOpenFiles": [
+    "cpp/Arrays-in-OOPs.md",
     "HOME.md",
-    "README.md",
+    "cpp/cpp.md",
     "Javascript/Javascript.md",
-    "Javascript/Events and DOM properties.md",
-    "ReactJs.md",
-    "Spaces/Spaces.md",
-    "Javascript/Advanced JavaScript topics.md",
-    "Javascript/Object Oriented Programming.md",
-    "Javascript/Fetch API, Cookies and sessionStorage-LocalStorage.md",
-    "Javascript/Callbacks, Promise and Async-Await.md",
-    "Javascript/Walking the DOM.md",
-    "Javascript/In browser JavaScript.md",
-    "Javascript/Arrays.md",
-    "Javascript/JavaScript on the server.md",
-    "Javascript/Basics of Javascript.md",
-    "Javascript/Variables & Data-types.md",
-    "Javascript/Expressions & Conditions.md",
-    "Javascript/Loops & Functions.md",
-    "Javascript/Strings.md",
-    "Developer roadmap.canvas",
-    "CSS - Comprehensive notes/CSS - Comprehensive notes.md",
+    "cpp/OOP-theory.md",
     "CSS - Refrences/CSS - Refrences.md",
-    "CSS - Refrences/Grid layout.md",
-    "Javascript/Callbacks, Promise and Async/Await.md",
+    "MongoDB.md",
+    "ReactJs.md",
+    "Express Js.md",
+    "cpp/Pointers-in-objects.md",
+    "cpp/Polymorphism.md",
+    "cpp/Inheritence.md",
+    "cpp/Constructors.md",
+    "cpp/Function-in-OOPs.md",
+    "cpp/Classes-basics.md",
+    "cpp/Four-pillars-of-OOP.md",
+    "cpp/Struct-Union-and-Enum.md",
+    "cpp/Manipulators.md",
+    "cpp/Arrays.md",
+    "cpp/Functions.md",
+    "cpp/Variables.md",
+    "cpp/Pointers-and-Reference-var.md",
+    "cpp/Break-and-Continue.md",
+    "README.md",
+    "Javascript/Events and DOM properties.md",
+    "Spaces/Spaces.md",
+    "Developer roadmap.canvas",
     "Javascript/Callbacks, Promise and Async",
-    "Vault.md",
-    "PL-SQL.md",
     "Spaces/Home",
     "Spaces",
-    "cpp/cpp.md",
     "cpp/New folder",
     "Pasted image 20231023164606.png",
     "Pasted image 20231023164640.png",

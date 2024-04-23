@@ -145,3 +145,108 @@ int main()
 }
 
 ```
+
+# Summary
+## Reading from a File
+
+### Using ifstream
+```cpp
+#include <iostream>
+#include <fstream>
+#include <string>
+
+int main() {
+    std::ifstream file("example.txt");
+    if (file.is_open()) {
+        std::string line;
+        while (std::getline(file, line)) {
+            std::cout << line << std::endl;
+        }
+        file.close();
+    } else {
+        std::cout << "Unable to open file" << std::endl;
+    }
+    return 0;
+}
+```
+
+## Writing to a File
+
+### Using ofstream
+```cpp
+#include <iostream>
+#include <fstream>
+
+int main() {
+    std::ofstream file("example.txt");
+    if (file.is_open()) {
+        file << "Hello, world!" << std::endl;
+        file.close();
+    } else {
+        std::cout << "Unable to create file" << std::endl;
+    }
+    return 0;
+}
+```
+
+## Appending to a File
+
+### Using ofstream with ios::app flag
+```cpp
+#include <iostream>
+#include <fstream>
+
+int main() {
+    std::ofstream file("example.txt", std::ios::app);
+    if (file.is_open()) {
+        file << "Appending some text!" << std::endl;
+        file.close();
+    } else {
+        std::cout << "Unable to open file for appending" << std::endl;
+    }
+    return 0;
+}
+```
+
+## Checking for End-of-File
+
+### Using eof() function
+```cpp
+#include <iostream>
+#include <fstream>
+#include <string>
+
+int main() {
+    std::ifstream file("example.txt");
+    if (file.is_open()) {
+        std::string line;
+        while (!file.eof()) {
+            std::getline(file, line);
+            std::cout << line << std::endl;
+        }
+        file.close();
+    } else {
+        std::cout << "Unable to open file" << std::endl;
+    }
+    return 0;
+}
+```
+
+## Error Handling
+
+### Checking for Errors
+```cpp
+#include <iostream>
+#include <fstream>
+
+int main() {
+    std::ofstream file("example.txt");
+    if (file.fail()) {
+        std::cout << "Error opening file" << std::endl;
+        return 1;
+    }
+    file << "Hello, world!" << std::endl;
+    file.close();
+    return 0;
+}
+```
