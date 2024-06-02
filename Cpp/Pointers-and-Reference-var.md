@@ -1,3 +1,6 @@
+---
+sticker: lucide//chevron-up
+---
 # Pointers 
 
 Data type which holds the address of other data types.
@@ -13,6 +16,27 @@ Data type which holds the address of other data types.
 ```
 
 In above code, when you use `b` it defines and prints address of `a` but when you use `*b` it points to `a` and prints value of `a`, so use `*b` instead of `b`.
+
+Simply run this code if you want to understand pointers.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main(){
+
+    int a=10;
+    int*b = &a;
+
+    cout<<endl<<"This is a => "<<a;
+    cout<<endl<<"This is &b => "<<&a;
+    cout<<endl<<"This is b => "<<b;
+    cout<<endl<<"This is *b => "<<*b;
+    cout<<endl<<"This is &b => "<<&b<<" (You can ignore this btw, this is just address of b which is not useful to you)";
+
+    return 0;
+}
+```
 
 # Pointer to pointer
 

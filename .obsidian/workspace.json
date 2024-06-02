@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3ac0adba7a35bb3e",
+        "id": "53cf00f9d0b3b82a",
         "type": "tabs",
         "children": [
           {
-            "id": "e094476d259fef9b",
+            "id": "deff9563f740476f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cpp/Function-in-OOPs.md",
+                "file": "cpp/OOP-theory.md",
                 "mode": "preview",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "friend function",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,11 +82,11 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 321.00507736206055
+    "width": 315.00507736206055
   },
   "right": {
     "id": "5a875565ada7376e",
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cpp/Function-in-OOPs.md",
+                "file": "cpp/OOP-theory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cpp/Function-in-OOPs.md",
+                "file": "cpp/OOP-theory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cpp/Function-in-OOPs.md"
+                "file": "cpp/OOP-theory.md"
               }
             }
           },
@@ -192,14 +192,26 @@
       "notion-like-tables:Create new loom": false
     }
   },
-  "active": "e094476d259fef9b",
+  "active": "deff9563f740476f",
   "lastOpenFiles": [
-    "cpp/Arrays-in-OOPs.md",
-    "HOME.md",
-    "cpp/cpp.md",
-    "Javascript/Javascript.md",
     "cpp/OOP-theory.md",
+    "cpp/Struct-Union-and-Enum.md",
+    "cpp/Manipulators.md",
+    "cpp/Arrays.md",
+    "cpp/Pointers-and-Reference-var.md",
+    "cpp/cpp.md",
+    "cpp/Break-and-Continue.md",
+    "cpp/Recursion.md",
+    "cpp/Functions.md",
+    "cpp/Variables.md",
+    "README.md",
+    "HOME.md",
     "CSS - Refrences/CSS - Refrences.md",
+    "CSS - Comprehensive notes/Best prectices.md",
+    "CSS - Comprehensive notes/Grid.md",
+    "CSS - Comprehensive notes/CSS - Comprehensive notes.md",
+    "Javascript/Javascript.md",
+    "cpp/Arrays-in-OOPs.md",
     "MongoDB.md",
     "ReactJs.md",
     "Express Js.md",
@@ -208,18 +220,6 @@
     "cpp/Inheritence.md",
     "cpp/Constructors.md",
     "cpp/Function-in-OOPs.md",
-    "cpp/Classes-basics.md",
-    "cpp/Four-pillars-of-OOP.md",
-    "cpp/Struct-Union-and-Enum.md",
-    "cpp/Manipulators.md",
-    "cpp/Arrays.md",
-    "cpp/Functions.md",
-    "cpp/Variables.md",
-    "cpp/Pointers-and-Reference-var.md",
-    "cpp/Break-and-Continue.md",
-    "README.md",
-    "Javascript/Events and DOM properties.md",
-    "Spaces/Spaces.md",
     "Developer roadmap.canvas",
     "Javascript/Callbacks, Promise and Async",
     "Spaces/Home",

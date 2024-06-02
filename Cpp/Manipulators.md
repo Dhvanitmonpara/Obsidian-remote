@@ -1,3 +1,6 @@
+---
+sticker: lucide//chevron-up
+---
 # Manipulators
 
 `setw` is used for manipulate width of a printed variable space, You can decide how much width will be occupy by string.

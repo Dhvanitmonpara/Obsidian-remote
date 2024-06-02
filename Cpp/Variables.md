@@ -1,3 +1,6 @@
+---
+sticker: lucide//chevron-up
+---
 # Types
 
 | Name      | declaration | size   | Includes                             |

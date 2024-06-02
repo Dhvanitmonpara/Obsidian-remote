@@ -1,3 +1,6 @@
+---
+sticker: lucide//chevron-up
+---
 # Characteristics
 
 1. A constructor should be declared in the public section of the class

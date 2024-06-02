@@ -1,3 +1,6 @@
+---
+sticker: lucide//chevron-up
+---
 # Structures (struct)
 
 It defines outside of `main()` function with semicolon at the end, you can use it like a user-defined data type.

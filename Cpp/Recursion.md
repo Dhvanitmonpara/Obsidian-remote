@@ -1,3 +1,6 @@
+---
+sticker: lucide//chevron-up
+---
 # Definition
 
 Recursion is a programming concept where a function calls itself directly or indirectly to solve a problem. It is a powerful and elegant technique used in many algorithms and can simplify complex problems.

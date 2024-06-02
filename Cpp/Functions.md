@@ -1,3 +1,6 @@
+---
+sticker: lucide//chevron-up
+---
 # Declaration
 
 Function declaration.

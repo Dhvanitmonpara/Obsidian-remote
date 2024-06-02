@@ -1,3 +1,6 @@
+---
+sticker: lucide//chevron-up
+---
 # Why Object-Oriented Programming?
 
 Before we discuss object-oriented programming, we need to learn why we need object-oriented programming?

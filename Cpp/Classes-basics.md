@@ -1,3 +1,6 @@
+---
+sticker: lucide//chevron-up
+---
 # Classes and objects
 
 C++ was initially called "C with classes by stroustroup". Class is extension of structures (in C) because structures had limitations.

@@ -1,3 +1,6 @@
+---
+sticker: lucide//chevron-up
+---
 # Nested functions
 
 Programmer can use functions inside other functions.

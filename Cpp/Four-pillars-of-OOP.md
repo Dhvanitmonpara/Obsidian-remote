@@ -1,3 +1,6 @@
+---
+sticker: lucide//chevron-up
+---
 Object-Oriented Programming (OOP) is based on four fundamental principles, often referred to as the four pillars of OOP. These principles help in designing and organizing code in a way that promotes modularity, reusability, and maintainability.
 
 <br>

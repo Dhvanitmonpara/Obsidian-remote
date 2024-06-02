@@ -1,3 +1,6 @@
+---
+sticker: lucide//chevron-up
+---
 # Break
 
 When your code hits break statement it exits loop block.

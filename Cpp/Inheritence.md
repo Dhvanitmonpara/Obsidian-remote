@@ -1,3 +1,6 @@
+---
+sticker: lucide//chevron-up
+---
 # Types of Inheritance in OOP
 
 ## Single Inheritance
