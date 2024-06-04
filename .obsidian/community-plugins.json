@@ -1,15 +1,12 @@
 [
-  "obsidian-style-settings",
   "highlightr-plugin",
   "dataview",
-  "obsidian-kanban",
   "table-editor-obsidian",
-  "calendar",
-  "templater-obsidian",
   "obsidian-mind-map",
-  "homepage",
   "obsidian-linter",
   "notion-like-tables",
   "obsidian-enhancing-mindmap",
-  "make-md"
+  "darlal-switcher-plus",
+  "tag-wrangler",
+  "homepage"
 ]

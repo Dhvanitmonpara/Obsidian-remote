@@ -1,0 +1,1 @@
+Stands for Entity Relationship model.

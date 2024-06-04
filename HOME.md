@@ -1,20 +1,9 @@
----
-sticker: lucide//home
----
-> Documentation 
-> [[HTML]]
-> [[CSS - Refrences]] & [[CSS - Comprehensive notes]]
-> [[Javascript]]
-> [[Express Js]]
-> [[ReactJs]]
-> [[DBMS]]
-> [[PL-SQL]]
-> [[Git & Git-Hub]]
-> [[Computer science topics]]
-> [[cpp]]
-> [[GSAP]]
+# Documentation 
+[[Computer science topics]]
+[[Languages]]
+[[Databases]]
+[[Frameworks]]
 
-> Automation 
 
-> Planning
-> [[Developer roadmap.canvas|Developer roadmap]]
+# Planning
+ [[Developer roadmap.canvas|Developer roadmap]]

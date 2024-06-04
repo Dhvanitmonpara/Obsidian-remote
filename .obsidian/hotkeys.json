@@ -1,12 +1,4 @@
 {
-  "editor:insert-embed": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "E"
-    }
-  ],
   "markdown:add-metadata-property": [
     {
       "modifiers": [
@@ -24,5 +16,23 @@
       "key": "C"
     }
   ],
-  "make-md:mk-blink": []
+  "make-md:mk-blink": [],
+  "darlal-switcher-plus:switcher-plus:open-commands": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "K"
+    }
+  ],
+  "command-palette:open": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "P"
+    }
+  ],
+  "editor:insert-link": []
 }

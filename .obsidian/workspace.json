@@ -4,17 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "53cf00f9d0b3b82a",
+        "id": "ecb0b1b759d2feee",
         "type": "tabs",
         "children": [
           {
-            "id": "deff9563f740476f",
+            "id": "3e23c4032c5c2099",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cpp/OOP-theory.md",
+                "file": "HOME.md",
                 "mode": "preview",
+                "backlinks": true,
                 "source": false
               }
             }
@@ -74,15 +75,14 @@
             }
           },
           {
-            "id": "0a2fec35fa3d6ad2",
+            "id": "091fe1e9faffec12",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -97,29 +97,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b357be5d4419a7c5",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "cpp/OOP-theory.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
             "id": "6feb448f77b57bfa",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cpp/OOP-theory.md",
+                "file": "HOME.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cpp/OOP-theory.md"
+                "file": "HOME.md"
               }
             }
           },
@@ -155,14 +138,6 @@
             }
           },
           {
-            "id": "e13a01b32619cb3a",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
             "id": "f94cf48dcc2326c2",
             "type": "leaf",
             "state": {
@@ -170,8 +145,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "horizontal",
@@ -186,55 +160,56 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "notion-like-tables:Create loom": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "templater-obsidian:Templater": false,
-      "homepage:Open homepage": false,
-      "notion-like-tables:Create new loom": false
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "homepage:Open homepage": false
     }
   },
-  "active": "deff9563f740476f",
+  "active": "3e23c4032c5c2099",
   "lastOpenFiles": [
-    "cpp/OOP-theory.md",
-    "cpp/Struct-Union-and-Enum.md",
-    "cpp/Manipulators.md",
-    "cpp/Arrays.md",
-    "cpp/Pointers-and-Reference-var.md",
-    "cpp/cpp.md",
-    "cpp/Break-and-Continue.md",
-    "cpp/Recursion.md",
-    "cpp/Functions.md",
-    "cpp/Variables.md",
-    "README.md",
+    "Frameworks/Frameworks.md",
+    "Frameworks/JavaScript/JavaScript Frameworks.md",
     "HOME.md",
-    "CSS - Refrences/CSS - Refrences.md",
-    "CSS - Comprehensive notes/Best prectices.md",
-    "CSS - Comprehensive notes/Grid.md",
-    "CSS - Comprehensive notes/CSS - Comprehensive notes.md",
-    "Javascript/Javascript.md",
-    "cpp/Arrays-in-OOPs.md",
-    "MongoDB.md",
-    "ReactJs.md",
-    "Express Js.md",
-    "cpp/Pointers-in-objects.md",
-    "cpp/Polymorphism.md",
-    "cpp/Inheritence.md",
-    "cpp/Constructors.md",
-    "cpp/Function-in-OOPs.md",
+    "Javascript f.md",
+    "Languages/Javascript/Javascript.md",
+    "Languages/Languages.md",
+    "Computer science topics/Things I learned from my projects.md",
+    "Databases/Databases.md",
+    "Computer science topics/Computer science topics.md",
+    "README.md",
+    "Languages/CPP/CPP.md",
+    "Vault.md",
+    "Languages/CSS - Comprehensive notes/Box model.md",
+    "$.md",
+    "Frameworks/JavaScript",
+    "Frameworks",
+    "Linked-resources",
+    "Databases",
+    "DevOps",
+    "Languages",
+    "Databases/PL-SQL.md",
+    "Linked-resources/Pasted image 20230926113855.jpg",
+    "Databases/MongoDB.md",
+    "Frameworks/JavaScript/Express Js.md",
+    "Frameworks/JavaScript/GSAP.md",
     "Developer roadmap.canvas",
+    "Linked-resources/create_favicon.png",
+    "Languages/CPP/Variables.md",
+    "Languages/CPP/Templates.md",
+    "Languages/CPP/Struct-Union-and-Enum.md",
+    "Languages/CPP/Recursion.md",
+    "Languages/CPP/Polymorphism.md",
+    "Languages/CPP/Pointers-in-objects.md",
+    "Languages/CPP/Pointers-and-Reference-var.md",
+    "Languages/CPP/OOP-theory.md",
     "Javascript/Callbacks, Promise and Async",
     "Spaces/Home",
     "Spaces",
     "cpp/New folder",
-    "Pasted image 20231023164606.png",
-    "Pasted image 20231023164640.png",
-    "Pasted image 20231023163623.png",
-    "Pasted image 20230926113855.jpg",
-    "C++",
-    "Computer science topics",
-    "create_favicon.png",
-    "Untitled.loom",
-    "context.mdb",
-    "DBMS",
-    ".md"
+    "Linked-resources/Pasted image 20231023164606.png",
+    "Linked-resources/Pasted image 20231023164640.png",
+    "Linked-resources/Pasted image 20231023163623.png"
   ]
 }
