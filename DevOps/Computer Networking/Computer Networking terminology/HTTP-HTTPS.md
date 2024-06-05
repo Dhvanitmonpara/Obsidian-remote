@@ -1,0 +1,4 @@
+- Hyper Text Transfer Protocol.
+- Used by web3 or [WWW](https://en.wikipedia.org/wiki/World_Wide_Web)
+- This is an application layer protocol
+- It uses TCP in it.

@@ -12,17 +12,17 @@
 
 # Git remote repos
 
-| command                            | Full form if exist | Use                                                                                                                                             |
-| ---------------------------------- | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| `git status`                       | -                  | shows status of current working directory                                                                                                       |
-| `git innit`                        | -                  | For initialize git repo                                                                                                                         |
-| `git add [filename]`               | -                  | For put files on staging area                                                                                                                   |
-| `git add --a` or `git add .`       | -                  | Put all files on staging area                                                                                                                   |
-| `git rm --cached [filename]`       | -                  | Remove from staging area                                                                                                                        |
-| `git commit -m "My first repo"`    | -                  | Commit all staged files                                                                                                                         |
-| `rm -rf .git`                      | -                  | Remove from tracking repo and delete all files                                                                                                  |
-| `git clone [repolink] [filename]`  |                    | For cloning the whole repo in your pc and`[filename]` uses for declaring a saperate name for local, you can also clone a repo without adding it |
-| `git -a -m "Direct commit"`        | -                  | Skip staging area and commit directly                                                                                                           |
+| command                           | Full form if exist | Use                                                                                                                                             |
+| --------------------------------- | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| `git status`                      | -                  | shows status of current working directory                                                                                                       |
+| `git init`                        | -                  | For initialize git repo                                                                                                                         |
+| `git add [filename]`              | -                  | For put files on staging area                                                                                                                   |
+| `git add --a` or `git add .`      | -                  | Put all files on staging area                                                                                                                   |
+| `git rm --cached [filename]`      | -                  | Remove from staging area                                                                                                                        |
+| `git commit -m "My first repo"`   | -                  | Commit all staged files                                                                                                                         |
+| `rm -rf .git`                     | -                  | Remove from tracking repo and delete all files                                                                                                  |
+| `git clone [repolink] [filename]` |                    | For cloning the whole repo in your pc and`[filename]` uses for declaring a saperate name for local, you can also clone a repo without adding it |
+| `git -a -m "Direct commit"`       | -                  | Skip staging area and commit directly                                                                                                           |
 
 # Working with remote
 
