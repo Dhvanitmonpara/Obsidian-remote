@@ -8,6 +8,11 @@ This repository serves as my digital notebook where I jot down ideas, solutions 
 
 I have organized everything into a folder structure based on languages, computer science topics, DevOps, and databases. You can fork this repository and use it as an Obsidian vault.
 
+Note: Clone this repository and create it as your Obsidian vault for using all links and shortcuts. Here are some tutorials for reference::
+- [How to clone github repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+- [How to create obsidian vault from existing folder](https://help.obsidian.md/Files+and+folders/Manage+vaults)
+- [How to use obsidian](https://youtu.be/hSTy_BInQs8?si=uspgYFLJv3AZJuMK)
+
 ## Contributing
 
 If you find any errors, have suggestions, or want to contribute in any way, feel free to open an issue or submit a pull request.
