@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5e8476101d9c1044",
+        "id": "b28bac7bb23faf16",
         "type": "tabs",
         "children": [
           {
-            "id": "13cd6281721c18a2",
+            "id": "cebaa53221402e75",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevOps/Computer Networking/TCP-IP Model/Application Layer.md",
+                "file": "DevOps/Computer Networking/Computer Networking terminology/TCP.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DevOps/Computer Networking/TCP-IP Model/Application Layer.md",
+                "file": "DevOps/Computer Networking/Computer Networking terminology/TCP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevOps/Computer Networking/TCP-IP Model/Application Layer.md"
+                "file": "DevOps/Computer Networking/Computer Networking terminology/TCP.md"
               }
             }
           },
@@ -151,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DevOps/Computer Networking/TCP-IP Model/Application Layer.md",
+                "file": "DevOps/Computer Networking/Computer Networking terminology/TCP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,12 +162,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 631,
-    "collapsed": true
+    "width": 271
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,9 +184,27 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "13cd6281721c18a2",
+  "active": "cebaa53221402e75",
   "lastOpenFiles": [
+    "DevOps/Computer Networking/Computer Networking terminology/UDP.md",
+    "DevOps/Computer Networking/Computer Networking terminology/TCP.md",
+    "DevOps/Computer Networking/TCP-IP Model/Application Layer.md",
+    "DevOps/Computer Networking/TCP-IP Model/Transport Layer.md",
     "DevOps/Computer Networking/TCP-IP Model/TCP-IP Model.md",
+    "DevOps/Computer Networking/Computer Networking.md",
+    "DevOps/DevOps.md",
+    "HOME.md",
+    "DevOps/Computer Networking/Computer Networking terminology/cookies.md",
+    "DevOps/Computer Networking/Computer Networking terminology/Computer Network terminology.md",
+    "Linked-resources/1_9ZW46uHlvlyvJb5moQs9aQ.jpg",
+    "Linked-resources/client-server-vs-p2p.png",
+    "Linked-resources/client-server-architecture.png",
+    "Linked-resources/how-email-works-3-320.webp",
+    "Linked-resources/featured.jpg",
+    "DevOps/Computer Networking/Computer Networking terminology/Email working.md",
+    "DevOps/Computer Networking/Computer Networking terminology/HTTP-HTTPS.md",
+    "DevOps/Computer Networking/OSI Model.md",
+    "DevOps/Computer Networking/Introduction to Computer Networking.md",
     "DevOps/Computer Networking/Computer Networking terminology/TELNET.md",
     "DevOps/Computer Networking/Computer Networking terminology/VNC.md",
     "DevOps/Computer Networking/Computer Networking terminology/SSH.md",
@@ -194,30 +212,15 @@
     "DevOps/Computer Networking/Computer Networking terminology/SMTP.md",
     "DevOps/Computer Networking/Computer Networking terminology/FTP.md",
     "DevOps/Computer Networking/Computer Networking terminology/DHCP.md",
-    "DevOps/Computer Networking/TCP-IP Model/Application Layer.md",
-    "DevOps/Computer Networking/Computer Networking terminology/HTTP-HTTPS.md",
-    "DevOps/Computer Networking/Computer Networking terminology/Computer Network terminology.md",
     "DevOps/Computer Networking/TCP-IP Model/Computer Networking terminology/HTTP/HTTPS.md",
     "DevOps/Computer Networking/TCP-IP Model/Computer Networking terminology/HTTP",
     "DevOps/Computer Networking/Computer Networking terminology",
-    "Linked-resources/client-server-vs-p2p.png",
-    "DevOps/Computer Networking/Introduction to Computer Networking.md",
     "Linked-resources/diagram-export-5-6-2024-6_32_30-pm.png",
-    "DevOps/DevOps.md",
     "DevOps/Computer Networking/TCP-IP Model",
     "Languages/HTML/Semantic tags.md",
     "Languages/HTML/Formatting tags.md",
     "Languages/HTML/Inside head tag.md",
     "Languages/HTML/HTML.md",
-    "Languages/HTML/Formatting.md",
-    "Languages/HTML/Emmet abbreviations.md",
-    "Languages/HTML/Basics of HTML.md",
-    "().md",
-    "Languages/HTML/Structure.md",
-    "Languages/Languages.md",
-    "HOME.md",
-    "Linked-resources/client-server-architecture.png",
-    "DevOps/Computer Networking/Computer Networking.md",
     "DevOps/Computer Networking",
     "Developer roadmap.canvas",
     "Frameworks/JavaScript",
@@ -229,7 +232,6 @@
     "Linked-resources/Pasted image 20230926113855.jpg",
     "Linked-resources/create_favicon.png",
     "Linked-resources/Pasted image 20231023164606.png",
-    "Linked-resources/Pasted image 20231023164640.png",
-    "Linked-resources/Pasted image 20231023163623.png"
+    "Linked-resources/Pasted image 20231023164640.png"
   ]
 }

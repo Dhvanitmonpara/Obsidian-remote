@@ -144,5 +144,112 @@ These devices play a vital role in connecting devices and managing data flow on 
 - [[VNC]]
 
 [[TELNET]] (Outside of TCP/IP)
-# UDP
-Stateless Protocol
+
+[[TCP]] and [[UDP]] are Transport Layer protocols.
+# How email works?
+
+### How Email Works (From a Computer Networking Perspective)
+
+#### Overview
+
+Email communication involves sending and receiving electronic messages across the Internet. This process uses specific protocols to ensure that emails are transmitted, stored, and retrieved correctly.
+
+#### Step-by-Step Workflow
+
+1. **Email Composition and Sending (Client-Side)**
+2. **Email Transfer (SMTP)**
+3. **Email Storage and Retrieval (POP/IMAP)**
+
+#### Step-by-Step Explanation
+
+1. **Email Composition and Sending (Client-Side)**:
+   - The user composes an email using an email client (e.g., Outlook, Gmail, Thunderbird).
+   - Once the email is ready, the user hits "Send." The email client connects to the outgoing mail server using the SMTP protocol.
+
+![[1_9ZW46uHlvlyvJb5moQs9aQ.jpg]]
+
+2. **Email Transfer (SMTP)**:
+   - **Client to ISP Mail Server**:
+     - The email client sends the email to the SMTP server of the user's Internet Service Provider (ISP).
+     - The SMTP server authenticates the sender and processes the email for delivery.
+   - **ISP Mail Server to Recipient's ISP Mail Server**:
+     - The SMTP server of the sender's ISP looks up the recipient's domain (e.g., recipient@example.com) using the Domain Name System (DNS).
+     - The DNS provides the IP address of the recipient's mail server.
+     - The sender's SMTP server establishes a connection with the recipient's ISP mail server and transfers the email.
+   - **Intermediate Transfers**:
+     - Sometimes, the email may pass through multiple SMTP servers before reaching the recipient's server, especially if there are intermediary relays.
+
+3. **Email Storage and Retrieval (POP/IMAP)**:
+   - **Recipient's ISP Mail Server**:
+     - The recipient's mail server receives the email and stores it in the recipient's mailbox.
+   - **Retrieving the Email (POP/IMAP)**:
+     - The recipient uses an email client to check for new emails.
+     - The email client connects to the recipient's mail server using either POP or IMAP:
+       - **POP (Post Office Protocol)**:
+         - The client connects to the mail server using POP.
+         - Emails are downloaded to the recipient's device.
+         - The server may delete the emails after download (depending on client settings).
+       - **IMAP (Internet Message Access Protocol)**:
+         - The client connects to the mail server using IMAP.
+         - Emails remain on the server, and the client synchronizes with the server.
+         - Allows the recipient to manage emails directly on the server, accessible from multiple devices.
+
+This was a brief information, You can refer to [[Email working]] for more details.
+
+Got it, here are the notes based on the list you provided:
+
+# DNS (Domain Name System)
+
+## Domain Names and IP Mapping
+- Domain names are human-readable names that are mapped to numerical IP addresses.
+- DNS is responsible for translating domain names into their corresponding IP addresses, allowing users to access websites and online services.
+
+## DNS Structure
+- DNS has a hierarchical structure that helps to quickly find IP addresses associated with domain names.
+- It consists of subdomains, domains, and top-level domains (TLDs).
+- Subdomains are parts of the main domain (e.g., `www`, `mail`, `blog`).
+- Domains are the main part of the domain name always known as second level domain (e.g., `example.com`).
+- Top-level domains are at the highest level (e.g., `.com`, `.org`, `.net`).
+
+## Root DNS Servers
+- Root DNS servers are at the top of the DNS hierarchy.
+- They store information about the IP addresses of TLD (Top-Level Domain) servers.
+- There are 13 root servers globally, managed by different organizations.
+- This thing makes tree-like structure.
+## DNS Process
+
+1. **User Layer**
+   - When a user tries to access a domain (e.g., `example.com`) in a web browser or an application, the client (the user's device) first checks its local DNS cache for the IP address associated with the domain name.
+   - If the IP address is not found in the local cache, the client sends a DNS query to the recursive DNS server configured on the client's system (typically provided by the user's Internet Service Provider (ISP)).
+
+2. **ISP Layer**
+   - The recursive DNS server at the ISP level is responsible for handling client requests and resolving domain names on their behalf.
+   - The recursive DNS server first checks its own cache for the requested domain name. If the IP address is found, it returns the cached response to the client.
+   - If the IP address is not in the cache, the recursive DNS server initiates the process of querying other DNS servers to find the IP address.
+   - Your all domain data is stored by ISP, and that's why they can track you using your IP address.
+
+3. **Root Server Layer**
+   - If the IP address is not in the recursive DNS server's cache, it starts by querying one of the root DNS servers to obtain the IP addresses of the Top-Level Domain (TLD) name servers responsible for the requested domain (e.g., `.com`).
+   - The root servers are at the top of the DNS hierarchy and store information about the IP addresses of TLD servers.
+
+4. **Top-Level Domain (TLD) Layer**
+   - After obtaining the IP addresses of the TLD name servers from the root server, the recursive DNS server queries these TLD name servers.
+   - The TLD name servers respond with the IP addresses of the authoritative name servers responsible for the specific domain (e.g., `example.com`).
+
+5. **Authoritative Name Server Layer**
+   - The recursive DNS server then queries the authoritative name servers for the IP address associated with the requested domain name.
+   - The authoritative name servers store the actual IP address mappings for the domains they are responsible for.
+   - These servers respond to the recursive DNS server with the IP address associated with the requested domain name.
+
+6. **Response Caching and Client Connection**
+   - The recursive DNS server caches the IP address response received from the authoritative name servers.
+   - The cached entry includes the IP address and a Time-to-Live (TTL) value, which specifies how long the entry can be cached before it needs to be refreshed.
+   - The recursive DNS server returns the IP address to the client.
+   - The client receives the IP address from the recursive DNS server and can now establish a connection with the requested domain using the obtained IP address.
+
+References:
+- Visit [Cloudeflare](https://www.cloudflare.com/learning/dns/what-is-dns/) or [GeeksForGeeks](https://www.geeksforgeeks.org/domain-name-system-dns-in-application-layer/) for more details about DNS.
+- Visit [Cloudeflare](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/)
+
+
+
