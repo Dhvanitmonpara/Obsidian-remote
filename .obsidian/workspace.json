@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a5bcfd149019970a",
+        "id": "05f2ba54e789b4e0",
         "type": "tabs",
         "children": [
           {
-            "id": "06b9451c32a8107e",
+            "id": "e61b6140b01411b2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "DevOps/Computer Networking/TCP-IP Model/Transport Layer.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "DevOps/Computer Networking/TCP-IP Model/Transport Layer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "DevOps/Computer Networking/TCP-IP Model/Transport Layer.md"
               }
             }
           },
@@ -151,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "DevOps/Computer Networking/TCP-IP Model/Transport Layer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,18 +184,24 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "06b9451c32a8107e",
+  "active": "e61b6140b01411b2",
   "lastOpenFiles": [
+    "Linked-resources/tcp_half_closed_timers.png",
+    "Linked-resources/Retransmission-after-receiving-3-duplicate-acknowledgements-TCP-Retransmission.webp",
+    "Linked-resources/timeout.gif",
+    "DevOps/Computer Networking/Computer Networking.md",
+    "DevOps/Computer Networking/Computer Networking terminology/Computer Network terminology.md",
+    "DevOps/Computer Networking/TCP-IP Model/Transport Layer.md",
+    "Linked-resources/diagram-export-7-6-2024-2_14_47-pm.png",
+    "Linked-resources/diagram-export-7-6-2024-2_05_54-pm.png",
+    "Linked-resources/diagram-export-7-6-2024-2_03_23-pm.png",
+    "DevOps/Computer Networking/TCP-IP Model/TCP-IP Model.md",
+    "DevOps/DevOps.md",
     "HOME.md",
     "DevOps/Computer Networking/Computer Networking terminology/UDP.md",
     "DevOps/Computer Networking/Computer Networking terminology/TCP.md",
     "DevOps/Computer Networking/TCP-IP Model/Application Layer.md",
-    "DevOps/Computer Networking/TCP-IP Model/Transport Layer.md",
-    "DevOps/Computer Networking/TCP-IP Model/TCP-IP Model.md",
-    "DevOps/Computer Networking/Computer Networking.md",
-    "DevOps/DevOps.md",
     "DevOps/Computer Networking/Computer Networking terminology/cookies.md",
-    "DevOps/Computer Networking/Computer Networking terminology/Computer Network terminology.md",
     "Linked-resources/1_9ZW46uHlvlyvJb5moQs9aQ.jpg",
     "Linked-resources/client-server-vs-p2p.png",
     "Linked-resources/client-server-architecture.png",
@@ -215,12 +221,10 @@
     "DevOps/Computer Networking/TCP-IP Model/Computer Networking terminology/HTTP/HTTPS.md",
     "DevOps/Computer Networking/TCP-IP Model/Computer Networking terminology/HTTP",
     "DevOps/Computer Networking/Computer Networking terminology",
-    "Linked-resources/diagram-export-5-6-2024-6_32_30-pm.png",
     "DevOps/Computer Networking/TCP-IP Model",
     "Languages/HTML/Semantic tags.md",
     "Languages/HTML/Formatting tags.md",
     "Languages/HTML/Inside head tag.md",
-    "Languages/HTML/HTML.md",
     "DevOps/Computer Networking",
     "Developer roadmap.canvas",
     "Frameworks/JavaScript",
@@ -228,10 +232,6 @@
     "Linked-resources",
     "Databases",
     "DevOps",
-    "Languages",
-    "Linked-resources/Pasted image 20230926113855.jpg",
-    "Linked-resources/create_favicon.png",
-    "Linked-resources/Pasted image 20231023164606.png",
-    "Linked-resources/Pasted image 20231023164640.png"
+    "Languages"
   ]
 }
