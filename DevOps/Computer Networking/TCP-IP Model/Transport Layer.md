@@ -18,6 +18,24 @@ Transport Layer lies on Devices. It is a crucial part of the TCP/IP protocol sui
 - **Congestion Control**: Adjusts the sending rate to avoid network congestion.
 - **Examples**: Web browsing, file transfers, email, and other applications that require reliable data delivery.
 
+
+### Features
+- It takes care of data should be sent successfully and order should be maintained.
+- It divides data into chunks, add header with checksums and send to next layer.
+- It is connection oriented. And also does congestion control and error control.
+- Functionality of [Flag](https://www.techopedia.com/definition/3796/flag) also.
+
+### 3 way handshade
+Here's a short introduction to the three-way handshake in TCP:
+
+The three-way handshake is the process used in the Transmission Control Protocol (TCP) to establish a reliable connection between two hosts before data transmission can begin. It involves the exchange of three separate segments between the client (the host that initiates the connection) and the server (the host that listens for incoming connections).
+
+In the first step, the client sends a SYN (Synchronize) segment to the server, indicating its intention to establish a connection. The server responds with a SYN-ACK (Synchronize-Acknowledge) segment, acknowledging the client's request and providing its own initial sequence number. Finally, the client sends an ACK (Acknowledge) segment to the server, acknowledging the server's response.
+
+After this three-way exchange of segments, the TCP connection is established, and data transfer can commence between the client and server. The three-way handshake ensures synchronization of sequence numbers, establishes a bidirectional connection, prevents stale connections, and provides security against certain types of attacks.
+
+Refer to [Tutorial point](https://www.tutorialspoint.com/tcp-3-way-handshake-process) and [Scaler-topics](https://www.scaler.com/topics/computer-network/tcp-3-way-handshake/) for more information.
+
 ### Data travels in packets
 Transport layer attaches [socket](https://www.geeksforgeeks.org/socket-in-computer-network/) port number. And transport layer also takes care of [Congestion control](https://www.scaler.com/topics/computer-network/tcp-congestion-control/) Its like traffic control.
 
@@ -88,6 +106,16 @@ Refer to [Scaler-topics](https://www.scaler.com/topics/tcp-timers/) or [Tutorial
 - **Low Overhead**: Faster than TCP due to minimal processing and no reliability mechanisms.
 - **Examples**: DNS, streaming media, online games, and applications that prioritize speed over reliability.
 - **Connectionless:** UDP is connectionless protocol.
+
+![[UDP-header.jpg]]
+
+Header is a connected information with the actual data.
+Total size of the protocol is 2^16 = 65536 bits.
+
+**Use cases:**
+- Video conference
+- DNS servers
+- Gaming
 
 # Port Numbers
 

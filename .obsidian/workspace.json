@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "05f2ba54e789b4e0",
+        "id": "4b8c009b47778669",
         "type": "tabs",
         "children": [
           {
-            "id": "e61b6140b01411b2",
+            "id": "987e2d53baa31382",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevOps/Computer Networking/TCP-IP Model/Transport Layer.md",
+                "file": "DevOps/Computer Networking/TCP-IP Model/Network Layer.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DevOps/Computer Networking/TCP-IP Model/Transport Layer.md",
+                "file": "DevOps/Computer Networking/TCP-IP Model/Network Layer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevOps/Computer Networking/TCP-IP Model/Transport Layer.md"
+                "file": "DevOps/Computer Networking/TCP-IP Model/Network Layer.md"
               }
             }
           },
@@ -151,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DevOps/Computer Networking/TCP-IP Model/Transport Layer.md",
+                "file": "DevOps/Computer Networking/TCP-IP Model/Network Layer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,29 +184,34 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e61b6140b01411b2",
+  "active": "987e2d53baa31382",
   "lastOpenFiles": [
-    "Linked-resources/tcp_half_closed_timers.png",
-    "Linked-resources/Retransmission-after-receiving-3-duplicate-acknowledgements-TCP-Retransmission.webp",
-    "Linked-resources/timeout.gif",
-    "DevOps/Computer Networking/Computer Networking.md",
-    "DevOps/Computer Networking/Computer Networking terminology/Computer Network terminology.md",
-    "DevOps/Computer Networking/TCP-IP Model/Transport Layer.md",
-    "Linked-resources/diagram-export-7-6-2024-2_14_47-pm.png",
-    "Linked-resources/diagram-export-7-6-2024-2_05_54-pm.png",
-    "Linked-resources/diagram-export-7-6-2024-2_03_23-pm.png",
     "DevOps/Computer Networking/TCP-IP Model/TCP-IP Model.md",
+    "DevOps/Computer Networking/Computer Networking.md",
     "DevOps/DevOps.md",
     "HOME.md",
+    "Linked-resources/it04-01-ipv-6-structure-and-format.PNG",
+    "Linked-resources/0_o26gkcQ5xnr4gI0L.png",
+    "Developer roadmap.canvas",
+    "DevOps/Computer Networking/TCP-IP Model/Network Layer.md",
+    "Linked-resources/internet-architecture.svg",
+    "Linked-resources/05fig01.png",
+    "Linked-resources/cn_purple_fig4.jpg",
+    "Linked-resources/cn_purple_fig4.jpg.crdownload",
+    "Linked-resources/ip-address-format-and-table.png",
+    "Linked-resources/ip-address-format-and-table.png.crdownload",
+    "Linked-resources/unicast_routing.jpg",
+    "Linked-resources/unicast_routing.jpg.crdownload",
+    "Linked-resources/Routing-Algorithms-1.jpg.webp",
+    "Linked-resources/Routing-Algorithms-1.jpg.webp.crdownload",
+    "DevOps/Computer Networking/TCP-IP Model/Transport Layer.md",
+    "Linked-resources/UDP-header.jpg",
+    "Linked-resources/tcp_half_closed_timers.png",
+    "DevOps/Computer Networking/Computer Networking terminology/Computer Network terminology.md",
     "DevOps/Computer Networking/Computer Networking terminology/UDP.md",
     "DevOps/Computer Networking/Computer Networking terminology/TCP.md",
     "DevOps/Computer Networking/TCP-IP Model/Application Layer.md",
     "DevOps/Computer Networking/Computer Networking terminology/cookies.md",
-    "Linked-resources/1_9ZW46uHlvlyvJb5moQs9aQ.jpg",
-    "Linked-resources/client-server-vs-p2p.png",
-    "Linked-resources/client-server-architecture.png",
-    "Linked-resources/how-email-works-3-320.webp",
-    "Linked-resources/featured.jpg",
     "DevOps/Computer Networking/Computer Networking terminology/Email working.md",
     "DevOps/Computer Networking/Computer Networking terminology/HTTP-HTTPS.md",
     "DevOps/Computer Networking/OSI Model.md",
@@ -224,14 +229,8 @@
     "DevOps/Computer Networking/TCP-IP Model",
     "Languages/HTML/Semantic tags.md",
     "Languages/HTML/Formatting tags.md",
-    "Languages/HTML/Inside head tag.md",
     "DevOps/Computer Networking",
-    "Developer roadmap.canvas",
     "Frameworks/JavaScript",
-    "Frameworks",
-    "Linked-resources",
-    "Databases",
-    "DevOps",
-    "Languages"
+    "Frameworks"
   ]
 }
