@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4b8c009b47778669",
+        "id": "8588fb026557c33f",
         "type": "tabs",
         "children": [
           {
-            "id": "987e2d53baa31382",
+            "id": "543849628d8d1e98",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevOps/Computer Networking/TCP-IP Model/Network Layer.md",
+                "file": "DevOps/Computer Networking/Introduction to Computer Networking.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DevOps/Computer Networking/TCP-IP Model/Network Layer.md",
+                "file": "DevOps/Computer Networking/Introduction to Computer Networking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,16 +116,6 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "29b2e3d3c9612f61",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "DevOps/Computer Networking/TCP-IP Model/Network Layer.md"
               }
             }
           },
@@ -151,9 +141,9 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DevOps/Computer Networking/TCP-IP Model/Network Layer.md",
-                "collapseAll": false,
-                "extraContext": false,
+                "file": "DevOps/Computer Networking/Introduction to Computer Networking.md",
+                "collapseAll": true,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -163,11 +153,11 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 271
+    "width": 246
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,29 +174,32 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "987e2d53baa31382",
+  "active": "543849628d8d1e98",
   "lastOpenFiles": [
-    "DevOps/Computer Networking/TCP-IP Model/TCP-IP Model.md",
     "DevOps/Computer Networking/Computer Networking.md",
-    "DevOps/DevOps.md",
-    "HOME.md",
-    "Linked-resources/it04-01-ipv-6-structure-and-format.PNG",
-    "Linked-resources/0_o26gkcQ5xnr4gI0L.png",
-    "Developer roadmap.canvas",
-    "DevOps/Computer Networking/TCP-IP Model/Network Layer.md",
-    "Linked-resources/internet-architecture.svg",
-    "Linked-resources/05fig01.png",
-    "Linked-resources/cn_purple_fig4.jpg",
-    "Linked-resources/cn_purple_fig4.jpg.crdownload",
-    "Linked-resources/ip-address-format-and-table.png",
-    "Linked-resources/ip-address-format-and-table.png.crdownload",
+    "DevOps/Computer Networking/Introduction to Computer Networking.md",
     "Linked-resources/unicast_routing.jpg",
+    "Linked-resources/UDP-header.jpg",
+    "Linked-resources/timeout.gif",
+    "Linked-resources/Pasted image 20230926113855.jpg",
+    "Linked-resources/featured.jpg",
+    "Linked-resources/diagram-export-7-6-2024-2_14_47-pm.png",
+    "Linked-resources/diagram-export-10-6-2024-11_29_02-am.png",
+    "Linked-resources/internet-architecture.svg",
+    "Linked-resources/it04-01-ipv-6-structure-and-format.PNG",
+    "Linked-resources/1kny4.jpg",
+    "DevOps/DevOps.md",
+    "DevOps/Computer Networking/OSI Model.md",
+    "DevOps/Computer Networking/TCP-IP Model/TCP-IP Model.md",
+    "DevOps/Computer Networking/TCP-IP Model/Data Link Layer.md",
+    "HOME.md",
+    "DevOps/Computer Networking/TCP-IP Model/Network Layer.md",
+    "Developer roadmap.canvas",
+    "Linked-resources/cn_purple_fig4.jpg.crdownload",
+    "Linked-resources/ip-address-format-and-table.png.crdownload",
     "Linked-resources/unicast_routing.jpg.crdownload",
-    "Linked-resources/Routing-Algorithms-1.jpg.webp",
     "Linked-resources/Routing-Algorithms-1.jpg.webp.crdownload",
     "DevOps/Computer Networking/TCP-IP Model/Transport Layer.md",
-    "Linked-resources/UDP-header.jpg",
-    "Linked-resources/tcp_half_closed_timers.png",
     "DevOps/Computer Networking/Computer Networking terminology/Computer Network terminology.md",
     "DevOps/Computer Networking/Computer Networking terminology/UDP.md",
     "DevOps/Computer Networking/Computer Networking terminology/TCP.md",
@@ -214,8 +207,6 @@
     "DevOps/Computer Networking/Computer Networking terminology/cookies.md",
     "DevOps/Computer Networking/Computer Networking terminology/Email working.md",
     "DevOps/Computer Networking/Computer Networking terminology/HTTP-HTTPS.md",
-    "DevOps/Computer Networking/OSI Model.md",
-    "DevOps/Computer Networking/Introduction to Computer Networking.md",
     "DevOps/Computer Networking/Computer Networking terminology/TELNET.md",
     "DevOps/Computer Networking/Computer Networking terminology/VNC.md",
     "DevOps/Computer Networking/Computer Networking terminology/SSH.md",
@@ -228,7 +219,6 @@
     "DevOps/Computer Networking/Computer Networking terminology",
     "DevOps/Computer Networking/TCP-IP Model",
     "Languages/HTML/Semantic tags.md",
-    "Languages/HTML/Formatting tags.md",
     "DevOps/Computer Networking",
     "Frameworks/JavaScript",
     "Frameworks"
