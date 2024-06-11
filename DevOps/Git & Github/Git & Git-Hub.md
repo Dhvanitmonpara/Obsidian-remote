@@ -115,3 +115,4 @@ Use this type of commands for alias.
 # Important note
 A commit doesn't make staging area empty. Staging area is always a copy of last commit and using `git add` command will make changes in it.
 
+Refer to [docs.chaicode.com](https://docs.chaicode.com/git-and-github/) for more detailed notes.
