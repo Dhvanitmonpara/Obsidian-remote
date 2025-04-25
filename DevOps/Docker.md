@@ -1,45 +1,62 @@
-# Docker Notes
+# Docker cheatsheet
 
-## Running Containers
+Don't forget images are just blueprint of any machine or OS, and containers are the thing which runs that images. One image can be run by multiple containers.
 
-- `docker run -it [image-name]`  
-  - `-it` stands for interactive terminal. It creates a new container and opens a terminal session.  
-  - Example: `docker run -it ubuntu` (Creates and starts a new Ubuntu container)
+### Working with images
 
-- `docker run -it -p [local-port]:[container-port] [image-name]`  
-  - Maps ports between the host and the container.  
-  - Example: `docker run -it -p 8000:8000 nodejs` (Maps local port 8000 to container port 8000)
+`docker run <image_name>` // run an image. But note that it'll automatically pull the image if it doesn't exists and will spin up a new container each time you run this
 
-- `docker run -it -e key=value -e key=value [image-name]`  
-  - Passes environment variables to the container.  
-  - Example: `docker run -it -e NODE_ENV=production -e PORT=8000 nodejs`
+`docker run -it <image_name>` // runs an interactive image
 
-## Managing Containers
+`docker run -it --name <custom_container_name> <image_name>` // runs an image with custom container name
 
-- `docker start [container-name or container-id]`  
-  - Starts a previously stopped container.
+`docker images` or `docker image ls` // prints all images
 
-- `docker stop [container-name or container-id]`  
-  - Stops a running container. Alternatively, you can use the `exit` command inside the container terminal.
+### Port mapping and environment variables in images
 
-- `docker container rm [container-name or container-id]`  
-  - Removes a container.
+`docker run -it -p 8001:8001 <image_name>` // runs image with exposing the port. Btw you've to write `-p` multiple times for multiple port maps. and `-p` stands for port-mapping
 
-## Listing Containers
+`docker run -it -e key=value -e key-value <image_name>` // runs image with passing environment variables
 
-- `docker container ls`  
-  - Lists all running containers.
+### Working with containers
 
-- `docker container ls -a`  
-  - Lists all containers, including stopped ones.  
-  - `-a` stands for *all*.
+`docker container ls` // prints all running containers.
 
-## Executing Commands in Containers
+`docker container ls -a` // prints all containers
 
-- `docker exec [container-name or container-id] [command]`  
-  - Executes a command inside a running container.  
-  - Example: `docker exec sharp_elgamal ls` (Runs `ls` inside the `sharp_elgamal` container)
+`docker start <container_name>` // starts a container (Will not spin up a new one)
 
-- `docker exec -it [container-name or container-id] bash`  
-  - Connects your local terminal to the container's terminal. This allows you to interact with the container directly.  
-  - Example: `docker exec -it sharp_elgamal bash`
+`docker stop <container_name>` // stops running container
+
+`docker container rm <container_name> or <container_id>` // removes the container
+
+`docker exec <container_name> <command>` // execute any command inside the running container
+
+`docker exec -it <container_name> bash` // connect your local terminal with the terminal of running container
+
+### Docker compose
+
+It has superpower of running multiple containers with a single command. (spoiler: It just runs that yml file)
+
+Create a `docker-compose.yml` file and write the configuration
+
+[Link for the Youtube video](https://youtu.be/31k6AtW-b3Y?si=GaYR7x3jwsMg0XEi&t=3897)
+
+`docker compose up` // runs docker compose. But make sure `pwd` has `docker-compose.yml` in it. Just do `ls` and check if it exists
+
+`docker compose up -d` // same as upper one but in detached mode. mean it'll run the background
+
+`docket compose down` // it'll remove whole stack of containers
+
+### Docerize/Conteinerize NodeJS app
+
+Create a `dockerfile` and write the configurations in YAML like format
+
+[Link for the Youtube video](https://youtu.be/31k6AtW-b3Y?si=sLtAOlJoonJE6JI3&t=2835)
+
+### Flow in steroids
+1. Pulls an image 
+2. Spin up a new container using that image
+3. Stop the container when your work is done
+4. Get back, re-run that container and continue the work
+

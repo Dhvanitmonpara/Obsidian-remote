@@ -4,37 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "9558e2eaf1c950b2",
+        "id": "e4ca781eb745d1ce",
         "type": "tabs",
         "children": [
           {
-            "id": "450d3631a0719d12",
+            "id": "aec992e7d07c80da",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevOps/DevOps.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "86c0c19b7216d86c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docker.md",
+                "file": "HOME.md",
                 "mode": "preview",
+                "source": false,
                 "backlinks": true,
-                "source": false
-              }
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "HOME"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -53,8 +50,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -69,7 +69,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -77,7 +79,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           },
           {
@@ -85,7 +89,9 @@
             "type": "leaf",
             "state": {
               "type": "mk-file-view",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -93,14 +99,16 @@
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 315.00507736206055
+    "width": 270.0086555480957
   },
   "right": {
     "id": "5a875565ada7376e",
@@ -116,10 +124,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker.md",
+                "file": "HOME.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from HOME"
             }
           },
           {
@@ -129,8 +139,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -138,7 +152,9 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -146,7 +162,9 @@
             "type": "leaf",
             "state": {
               "type": "make-context-view",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -155,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker.md",
+                "file": "HOME.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -163,7 +181,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for HOME"
             }
           },
           {
@@ -172,8 +192,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker.md"
-              }
+                "file": "HOME.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of HOME"
             }
           }
         ],
@@ -198,12 +220,19 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "86c0c19b7216d86c",
+  "active": "aec992e7d07c80da",
   "lastOpenFiles": [
+    "DevOps/Docker.md",
     "DevOps/DevOps.md",
-    "Docker.md",
     "HOME.md",
+    "DevOps/Computer Networking/TCP-IP Model/Network Layer.md",
+    "DevOps/Computer Networking/TCP-IP Model/TCP-IP Model.md",
+    "DevOps/Computer Networking/Computer Networking.md",
     "DevOps/Git & Github/Git & Git-Hub.md",
+    "Vault.md",
+    "Developer roadmap.canvas",
+    "README.md",
+    "Docker.md",
     "Languages/CSS - Refrences/Background image.md",
     "Languages/CSS - Refrences/CSS - Refrences.md",
     "Languages/Languages.md",
@@ -217,7 +246,6 @@
     "Languages/CSS - Comprehensive notes/CSS - Comprehensive notes.md",
     "Languages/CSS - Comprehensive notes/Selectors.md",
     "DevOps/Computer Networking/Introduction to Computer Networking.md",
-    "DevOps/Computer Networking/Computer Networking.md",
     "Linked-resources/unicast_routing.jpg",
     "Linked-resources/UDP-header.jpg",
     "Linked-resources/timeout.gif",
@@ -229,18 +257,12 @@
     "Linked-resources/it04-01-ipv-6-structure-and-format.PNG",
     "Linked-resources/1kny4.jpg",
     "DevOps/Computer Networking/OSI Model.md",
-    "DevOps/Computer Networking/TCP-IP Model/TCP-IP Model.md",
     "DevOps/Computer Networking/TCP-IP Model/Data Link Layer.md",
-    "DevOps/Computer Networking/TCP-IP Model/Network Layer.md",
-    "Developer roadmap.canvas",
     "Linked-resources/cn_purple_fig4.jpg.crdownload",
     "Linked-resources/ip-address-format-and-table.png.crdownload",
     "Linked-resources/unicast_routing.jpg.crdownload",
     "Linked-resources/Routing-Algorithms-1.jpg.webp.crdownload",
     "DevOps/Computer Networking/TCP-IP Model/Transport Layer.md",
-    "DevOps/Computer Networking/Computer Networking terminology/Computer Network terminology.md",
-    "DevOps/Computer Networking/Computer Networking terminology/UDP.md",
-    "DevOps/Computer Networking/Computer Networking terminology/TCP.md",
     "DevOps/Computer Networking/TCP-IP Model/Computer Networking terminology/HTTP",
     "DevOps/Computer Networking/Computer Networking terminology",
     "DevOps/Computer Networking/TCP-IP Model",

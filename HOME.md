@@ -4,6 +4,3 @@
 [[Databases]]
 [[Frameworks]]
 [[DevOps]]
-
-# Planning
- [[Developer roadmap.canvas|Developer roadmap]]
